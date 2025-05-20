@@ -2,11 +2,11 @@ version: '3.8'
 
 services:
   php:
-   image: php:8.1-fpm
-  container_name: scriptdone_php
-  volumes:
+    image: php:8.1-fpm
+    container_name: scriptdone_php
+    volumes:
       - ./public:/var/www/html
-  expose:
+    expose:
       - 9001
 
   nginx:
