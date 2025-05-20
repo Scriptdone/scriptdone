@@ -50,8 +50,8 @@ Hero START -->
 							</div>
 							<!-- Title and price -->
 							<h6 class="mb-3">Basic plan</h6>
-							<p class="mb-0"> <span class="h2 mb-0 plan-price" data-monthly-price="$25" data-annual-price="$20">$25</span> /month</p>
-							<small>Basic feature for up to 10 users</small>
+							<p class="mb-0"> <span class="h2 mb-0 plan-price" data-monthly-price="₹1999" data-annual-price="₹1799">₹1999</span> /month</p>
+							<small>Basic feature for Single users</small>
 							<!-- Button -->
 							<a href="#" class="btn btn-dark btn-transition w-100 mt-4">Get started</a>
 						</div>
@@ -60,10 +60,10 @@ Hero START -->
 						<div class="card-footer bg-secondary bg-opacity-50 p-4">
 							<!-- List -->
 							<ul class="list-group list-group-borderless mb-0">
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Up to 05 users monthly</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Free 5 host domain</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Google docs style editors</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Support for 30+ languages</li>
+								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>0% handling fee</li>
+								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Single user monthly</li>
+								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Single Payment Gateway</li>
+								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>10 products upload by our team</li>
 							</ul>
 						</div>
 					</div>
@@ -80,7 +80,7 @@ Hero START -->
 							</div>
 							<!-- Title and price -->
 							<h6 class="mb-3">Standard plan</h6>
-							<p class="mb-0"> <span class="h2 mb-0 plan-price" data-monthly-price="$59" data-annual-price="$45">$59</span> /month</p>
+							<p class="mb-0"> <span class="h2 mb-0 plan-price" data-monthly-price="₹4167" data-annual-price="₹3900">₹4167</span> /month</p>
 							<small>Basic feature for up to 50 users</small>
 							<!-- Button -->
 							<a href="#" class="btn btn-dark btn-transition w-100 mt-4">Get started</a>
@@ -90,12 +90,11 @@ Hero START -->
 						<div class="card-footer bg-secondary bg-opacity-50 p-4">
 							<!-- List -->
 							<ul class="list-group list-group-borderless mb-0">
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Up to 20 users monthly</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Free 12 host domain</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Google docs style editors</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Support for 30+ languages</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Landing pages Web widgets</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Customizable features</li>
+									<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>0% handling fee</li>
+								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Up to 5 users monthly</li>
+								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Multi Payment Gateway</li>
+								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>50 products upload by our team</li>
+								
 							</ul>
 						</div>
 					</div>
@@ -115,7 +114,7 @@ Hero START -->
 							</div>
 							<!-- Title and price -->
 							<h6 class="mb-3">Enterprise plan</h6>
-							<p class="mb-0"> <span class="h2 mb-0 plan-price" data-monthly-price="$99" data-annual-price="$75">$99</span> /month</p>
+							<p class="mb-0"> <span class="h2 mb-0 plan-price" data-monthly-price="₹8500" data-annual-price="₹8200">₹8200</span> /month</p>
 							<small>Basic feature for up to 80 users</small>
 							<!-- Button -->
 							<a href="#" class="btn btn-white-shadow w-100 mt-4">Get started</a>
@@ -125,13 +124,12 @@ Hero START -->
 						<div class="card-footer bg-secondary-grad p-4">
 							<!-- List -->
 							<ul class="list-group list-group-borderless mb-0">
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Up to 50 users monthly</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Free 25 host domain</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Google docs style editors</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Support for 30+ languages</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Landing pages Web widgets</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Customizable features</li>
-								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>24/7 dedicated Support</li>
+									<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>0% handling fee</li>
+								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Up to 10 users monthly</li>
+								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>Multi Payment Gateway</li>
+								<li class="list-group-item d-flex heading-color mb-0"><i class="bi bi-check-lg text-primary me-1"></i>100 products upload by our team</li>
+
+
 							</ul>
 						</div>
 					</div>
@@ -228,39 +226,58 @@ Compare table START -->
 				<tbody class="border-top-0">
 					<!-- Item -->
 					<tr>
-						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Storage space</span></th>
-						<td class="text-center"> 40GB </td>
-						<td class="text-center"> 60GB </td>
-						<td class="text-center"> Unlimited </td>
+						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Discounts & coupons</span></th>
+							<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+							<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+							<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
 					</tr>
+
+						<tr>
+						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Premimum Themes</span></th>
+							<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+							<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+							<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+					</tr>
+
 
 					<!-- Item -->
 					<tr>
-						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Cloud connected</span></th>
-						<td class="text-center"> Yes </td>
-						<td class="text-center"> Yes </td>
-						<td class="text-center"> Yes </td>
+						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Product attributes</span></th>
+							<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+							<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+							<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
 					</tr>
 
 					<!-- Item -->
-					<tr>
-						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Coding tools</span></th>
-						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
-						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
-						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
-					</tr>
 
-					<!-- Item -->
-					<tr>
-						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Advance debugging</span></th>
+						<tr>
+						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Unlimited Categories</span></th>
 						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
 						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
 						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
 					</tr>
 
+
+					<tr>
+						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Unlimited Products</span></th>
+						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+					</tr>
+
+					<tr>
+						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Google tag manager</span></th>
+						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+					</tr>
+
+					<!-- Item -->
+				
+
 					<!-- Item -->
 					<tr>
-						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Mobile apps</span></th>
+						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Abandoned Cart Auto Recovery</span></th>
 						<td class="text-center text-danger"> <i class="bi bi-x-circle fa-lg"></i> </td>
 						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
 						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i></td>
@@ -268,7 +285,7 @@ Compare table START -->
 
 					<!-- Item -->
 					<tr>
-						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Web tools</span></th>
+						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Email Subscription</span></th>
 						<td class="text-center text-danger"> <i class="bi bi-x-circle fa-lg"></i> </td>
 						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
 						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i></td>
@@ -276,27 +293,28 @@ Compare table START -->
 
 					<!-- Item -->
 					<tr>
-						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Version control</span></th>
+						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Shipping Zone to control from a country to a pincode level</span></th>
 						<td class="text-center text-danger"> <i class="bi bi-x-circle fa-lg"></i> </td>
 						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
 						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
 					</tr>
 
-					<!-- Item -->
-					<tr>
-						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Security</span></th>
-						<td class="text-center text-danger"> <i class="bi bi-x-circle fa-lg"></i> </td>
-						<td class="text-center text-danger"> <i class="bi bi-x-circle fa-lg"></i> </td>
-						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+						<tr>
+						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Users</span></th>
+						<td class="text-center "> 1 </td>
+						<td class="text-center "> 5 </td>
+						<td class="text-center "> 10 </td>
 					</tr>
 
 					<!-- Item -->
 					<tr>
-						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Team access</span></th>
-						<td class="text-center text-danger"> <i class="bi bi-x-circle fa-lg"></i> </td>
-						<td class="text-center text-danger"> <i class="bi bi-x-circle fa-lg"></i> </td>
-						<td class="text-center text-success"> <i class="bi bi-check-circle fa-lg"></i> </td>
+						<th scope="row"><span class="fw-normal heading-color ps-lg-4 mb-0">Online Payment Gateways</span></th>
+					<td class="text-center "> Single </td>
+						<td class="text-center "> Mutilple</td>
+						<td class="text-center "> Mutilple </td>
 					</tr>
+
+			
 
 				</tbody>
 				<!-- Body END -->
@@ -476,7 +494,7 @@ Compare table END -->
 				<!-- Accordion END -->
 
 				<!-- CTA text -->
-				 <p class="heading-color text-center">Need help? Our team is ready to assist you. Start a chat for quick support. <a href="#" class="hover-underline-animation fw-semibold">Talk to Us</a></p>
+				 <p class="heading-color text-center">Need help? our team is ready to assist you. Start a chat for quick support. <a href="#" class="hover-underline-animation fw-semibold">Talk to Us</a></p>
 			</div>
 		</div>
 	</div>

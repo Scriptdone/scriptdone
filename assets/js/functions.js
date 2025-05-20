@@ -261,7 +261,7 @@ var e = {
                   if (scTop >= 400) {
                       stickyNav.addClass('header-sticky-on');
                   } else {
-                      stickyNav.removeClass("header-sticky-on");
+                    //   stickyNav.removeClass("header-sticky-on");
                   }
               });
           }

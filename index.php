@@ -19,16 +19,16 @@ Hero START -->
 	
 				<!-- List -->
 				<ul class="list-inline d-flex justify-content-center flex-wrap gap-2 gap-md-4 mb-0 mt-4 mt-xl-5">
-					<li class="list-inline-item"> <i class="bi bi-cloud-fill text-pink me-2 lead"></i>Cloud hosting
+					<li class="list-inline-item"> <i class="bi bi-cloud-fill text-pink me-2 lead"></i>Discuss
 					</li>
-					<li class="list-inline-item"> <i class="bi bi-chat-square-quote-fill text-success me-2 lead"></i>Team collaboration</li>
-					<li class="list-inline-item"> <i class="bi bi-lightbulb-fill text-warning me-2 lead"></i>Fully adaptable</li>
-					<li class="list-inline-item"> <i class="bi bi-database-fill text-info me-2 lead"></i>Unify your data</li>
+					<li class="list-inline-item"> <i class="bi bi-chat-square-quote-fill text-success me-2 lead"></i>Research</li>
+					<li class="list-inline-item"> <i class="bi bi-lightbulb-fill text-warning me-2 lead"></i>Development</li>
+					<li class="list-inline-item"> <i class="bi bi-database-fill text-info me-2 lead"></i>Deploy</li>
 				</ul>
 	
 				<!-- Buttons -->
 				<div class="d-flex justify-content-center flex-wrap gap-3 mt-4 mt-xl-5">
-					<a href="#" class="btn btn-primary icon-link icon-link-hover mb-0">Start building now <i class="bi bi-arrow-right"></i></a>
+					<input type="text" placeholder="Phone Number">
 					<a href="#" class="btn btn-white-shadow mb-0">Get started</a>
 				</div>
 			</div>
@@ -344,10 +344,10 @@ Left right features accordion START -->
 					<!-- Title and contents -->
 					<div class="col-xxl-8 text-center mx-auto">
 						<!-- Title -->
-						<h1 class="fw-bold mb-4 lh-base">Easily bring <span class="text-primary">AI</span> in your workflow to create content</h1>
+						<h1 class="fw-bold mb-4 lh-base">Benefits of Our <span class="text-primary">Ecommerce</span> Design Services</h1>
 
 						<!-- Desc -->
-						<p class="mb-4">Our robust integration capabilities ensure your data flows smoothly across systems, empowering you to streamline operations and boost productivity</p>
+						<p class="mb-4">Our Ecommerce design services are focused on creating user-friendly, responsive, and SEO-optimized online stores that enhance customer experience and drive sales. Whether you're starting fresh or revamping an existing site, we provide custom solutions to match your brand and business goals.</p>
 
 						<!-- Button -->
 						<a href="integrations.html" class="btn btn-primary-grad icon-link icon-link-hover mb-0">Integrate with your apps <i class="bi bi-arrow-right"></i></a>
@@ -359,9 +359,9 @@ Left right features accordion START -->
 				<div class="row g-4 g-lg-6">
 					<!-- Feature item -->
 					<div class="col-md-6 col-lg-4">
-						<div class="card card-body bg-transparent text-center p-0">
+						<div class="card card-body bg-transparent  p-0">
 							<!-- Icon -->
-							<div class="text-center mb-3">
+							<div class="mb-3">
 								<svg class="text-pink" width="70" height="70" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M2.25 11.9993C2.25 11.2426 2.33278 10.506 2.48954 9.79833C3.52877 11.4667 4.9817 12.8444 6.70303 13.7804C6.89642 15.2743 7.31649 16.8492 7.91754 18.302C8.4287 19.5376 9.08647 20.7225 9.87759 21.7035C5.52106 20.7171 2.25 16.7562 2.25 11.9993Z" fill="currentColor" fill-opacity="0.18"></path>
 									<path d="M6.58273 11.951C5.09625 10.9366 3.89759 9.51578 3.14064 7.84155C4.39913 5.05839 6.8817 2.97341 9.87759 2.29504C9.08647 3.27604 8.4287 4.461 7.91754 5.69656C7.07721 7.72779 6.59064 9.99751 6.58273 11.951Z" fill="currentColor" fill-opacity="0.18"></path>
@@ -373,32 +373,32 @@ Left right features accordion START -->
 							</div>
 
 							<!-- Title and content -->
-							<h6 class="mb-3">Website Speed and Performance</h6>
-							<p class="mb-md-0">Boost retention even more with lightning-fast, optimized storefronts.</p>
+							<h6 class="mb-3">Budget-friendly</h6>
+							<p class="mb-md-0">Scriptdone Commerce and its modules are affordable and designed to fit your budget. Merchants can select a plan that aligns perfectly with their needs and financial goals</p>
 						</div>
 					</div>
 		
 					<!-- Feature item -->
 					<div class="col-md-6 col-lg-4">
-						<div class="card card-body bg-transparent text-center p-0">
+						<div class="card card-body bg-transparent p-0">
 							<!-- Icon -->
-							<div class="text-center mb-3">
+							<div class="mb-3">
 								<svg class="text-info" width="70" height="70" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M2.25 12C2.25 17.3848 6.61522 21.75 12 21.75C16.567 21.75 20.4006 18.6099 21.4597 14.371C21.6257 13.7067 21.7086 13.3746 21.5327 13.0378C21.4825 12.9418 21.3914 12.8251 21.3104 12.7532C21.0263 12.5009 20.6322 12.5009 19.844 12.5009H13.3C12.5501 12.5009 12.1751 12.5009 11.9122 12.3099C11.8273 12.2482 11.7527 12.1735 11.691 12.0886C11.5 11.8258 11.5 11.4508 11.5 10.7009V4.15579C11.5 3.36762 11.5 2.97353 11.2477 2.68944C11.1758 2.60845 11.0591 2.51733 10.9631 2.46717C10.6263 2.29122 10.2942 2.37415 9.63002 2.54002C5.39056 3.59871 2.25 7.43258 2.25 12Z" fill="currentColor" fill-opacity="0.18"></path>
 									<path d="M13 9.2V4.32462C13 3.48021 13 3.05801 13.2763 2.76826C13.3548 2.68601 13.4813 2.59592 13.5847 2.54872C13.9489 2.38243 14.2968 2.50291 14.9926 2.74388C17.9219 3.75832 20.2417 6.07807 21.2562 9.00738C21.4971 9.70318 21.6176 10.0511 21.4513 10.4153C21.4041 10.5187 21.314 10.6452 21.2318 10.7237C20.942 11 20.5198 11 19.6754 11H14.8C14.0501 11 13.6751 11 13.4122 10.809C13.3273 10.7473 13.2527 10.6727 13.191 10.5878C13 10.3249 13 9.94994 13 9.2Z" fill="currentColor"></path>
 								</svg>
 							</div>
 							<!-- Title and content -->
-							<h6 class="mb-3">Built-in Integrations</h6>
-							<p class="mb-md-0">Access a wide range of integrations with third-party services, including payment gateways, marketing tools, and email/SMS gateways, among others</p>
+							<h6 class="mb-3">Themes for Every Style</h6>
+							<p class="mb-md-0">Scriptdone Commerce offers multiple professionally designed free and premium themes to help your store stand out and look impressive</p>
 						</div>
 					</div>
 		
 					<!-- Feature item -->
 					<div class="col-md-6 col-lg-4">
-						<div class="card card-body bg-transparent text-center p-0">
+						<div class="card card-body bg-transparent  p-0">
 							<!-- Icon -->
-							<div class="text-center mb-3">
+							<div class="mb-3">
 								<svg class="text-success" width="70" height="70" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M4 4.25C3.0335 4.25 2.25 5.0335 2.25 6C2.25 6.9665 3.0335 7.75 4 7.75C4.48304 7.75 4.92157 7.5533 5.23744 7.23744C5.5533 6.92157 5.75 6.48304 5.75 6C5.75 5.0335 4.9665 4.25 4 4.25Z" fill="currentColor"></path>
 									<path d="M13.5 7.25C12.2574 7.25 11.25 8.25736 11.25 9.5C11.25 10.7426 12.2574 11.75 13.5 11.75C14.7426 11.75 15.75 10.7426 15.75 9.5C15.75 8.25736 14.7426 7.25 13.5 7.25Z" fill="currentColor"></path>
@@ -408,16 +408,16 @@ Left right features accordion START -->
 								</svg>
 							</div>
 							<!-- Title and content -->
-							<h6 class="mb-3">Machine learning adaptation</h6>
-							<p class="mb-md-0">Continuously improve through machine learning algorithms. The chatbot learns from each interaction.</p>
+							<h6 class="mb-3">Domain Name Flexibility</h6>
+							<p class="mb-md-0">Scriptdne Commerce offers domain name flexibility, allowing you to connect your own branded domain and create a professional online identity.</p>
 						</div>
 					</div>
 
 					<!-- Feature item -->
 					<div class="col-md-6 col-lg-4">
-						<div class="card card-body bg-transparent text-center p-0">
+						<div class="card card-body bg-transparent p-0">
 							<!-- Icon -->
-							<div class="text-center mb-3">
+							<div class="mb-3">
 								<svg class="text-purple" width="70" height="70" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M12.25 2.25V3C12.25 5.8123 12.25 7.21845 12.9662 8.2042C13.1975 8.52255 13.4775 8.80252 13.7958 9.03381C14.7816 9.75 16.1877 9.75 19 9.75H19.75V15C19.75 17.8123 19.75 19.2184 19.0338 20.2042C18.8025 20.5226 18.5225 20.8025 18.2042 21.0338C17.2184 21.75 15.8123 21.75 13 21.75H11C8.1877 21.75 6.78155 21.75 5.79581 21.0338C5.47745 20.8025 5.19748 20.5226 4.96619 20.2042C4.25 19.2184 4.25 17.8123 4.25 15V9C4.25 6.1877 4.25 4.78155 4.96619 3.79581C5.19748 3.47745 5.47745 3.19748 5.79581 2.96619C6.78155 2.25 8.1877 2.25 11 2.25H12.25Z" fill="currentColor" fill-opacity="0.18"></path>
 									<path d="M13.75 2.25V4.2C13.75 5.88738 13.75 6.73107 14.1797 7.32252C14.3185 7.51353 14.4865 7.68151 14.6775 7.82029C15.2689 8.25 16.1126 8.25 17.8 8.25L19.75 8.25L13.75 2.25Z" fill="currentColor" fill-opacity="0.18"></path>
@@ -426,16 +426,16 @@ Left right features accordion START -->
 								</svg>
 							</div>
 							<!-- Title and content -->
-							<h6 class="mb-3">Automated task handling</h6>
-							<p class="mb-md-0">Perform routine tasks such as scheduling appointments, processing orders, or providing information.</p>
+							<h6 class="mb-3">Built-in Blog System</h6>
+							<p class="mb-md-0">Scriptdne Commerce comes with a powerful built-in blogging feature, helping you share updates, drive traffic, and boost SEO."</p>
 						</div>
 					</div>
 		
 					<!-- Feature item -->
 					<div class="col-md-6 col-lg-4">
-						<div class="card card-body bg-transparent text-center p-0">
+						<div class="card card-body bg-transparent p-0">
 							<!-- Icon -->
-							<div class="text-center mb-3">
+							<div class="mb-3">
 								<svg class="text-warning" width="70" height="70" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M17.75 4.25C16.6454 4.25 15.75 5.14543 15.75 6.25C15.75 6.52686 15.8065 6.79088 15.9084 7.03086L15.6893 7.24991H12V8.74991H16C16.1989 8.74991 16.3897 8.67089 16.5303 8.53024L16.969 8.09156C17.209 8.19347 17.4731 8.25 17.75 8.25C18.8546 8.25 19.75 7.35457 19.75 6.25C19.75 5.14543 18.8546 4.25 17.75 4.25Z" fill="currentColor"></path>
 									<path d="M17.378 12.7499H12V11.2499H17.3781C17.687 10.3761 18.5204 9.75 19.5 9.75C20.7426 9.75 21.75 10.7574 21.75 12C21.75 13.2426 20.7426 14.25 19.5 14.25C18.5203 14.25 17.6868 13.6238 17.378 12.7499Z" fill="currentColor"></path>
@@ -444,16 +444,16 @@ Left right features accordion START -->
 								</svg>
 							</div>
 							<!-- Title and content -->
-							<h6 class="mb-3">Knowledge base integration</h6>
-							<p class="mb-md-0">Access and utilize a comprehensive database of information to provide accurate answers.</p>
+							<h6 class="mb-3">Payment Systems</h6>
+							<p class="mb-md-0">We support multiple payment gateways on your platform, ensuring seamless and secure transactions for your customers."</p>
 						</div>
 					</div>
 		
 					<!-- Feature item -->
 					<div class="col-md-6 col-lg-4">
-						<div class="card card-body bg-transparent text-center p-0">
+						<div class="card card-body bg-transparent  p-0">
 							<!-- Icon -->
-							<div class="text-center mb-3">
+							<div class=" mb-3">
 								<svg class="text-primary" width="70" height="70" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M19 10V11C19 14.866 15.866 18 12 18V18M5 10V11C5 14.866 8.13401 18 12 18V18M12 18V21" stroke="currentColor" stroke-opacity="0.18" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
 									<path d="M7.25 7C7.25 4.37665 9.37665 2.25 12 2.25C14.6234 2.25 16.75 4.37665 16.75 7V11C16.75 13.6234 14.6234 15.75 12 15.75C9.37665 15.75 7.25 13.6234 7.25 11V7Z" fill="currentColor" fill-opacity="0.18"></path>
@@ -461,8 +461,8 @@ Left right features accordion START -->
 								</svg>
 							</div>
 							<!-- Title and content -->
-							<h6 class="mb-3">Voice recognition</h6>
-							<p class="mb-md-0">Utilize advanced voice recognition technology for more dynamic and versatile communication.</p>
+							<h6 class="mb-3">Mobile-Friendly Commerce</h6>
+							<p class="mb-md-0">Scriptdone Commerce provides a fully mobile-optimized platform, ensuring your store looks great and functions smoothly on any device</p>
 						</div>
 					</div>
 				</div>
@@ -486,8 +486,8 @@ Left right features accordion START -->
 			<div class="row g-4 align-items-center position-relative">
 				<!-- Title and list -->
 				<div class="col-lg-6">
-					<h2 class="mb-3">Experience the Power of <span class="text-purple">AI Chatbot</span></h2>
-					<p class="mb-4">Our AI chatbot offers enhancing customer satisfaction and boosting your business efficiency.</p>
+					<h2 class="mb-3">Begin your <span class="text-purple">free</span> trial now </h2>
+					<p class="mb-4">Begin your free trial now and take the first step toward launching your online store. With our easy-to-use tools and powerful features, you can start your store in minutes</p>
 					<a href="pricing-v1.html" class="btn btn-outline-secondary mb-0">Start free trial</a>
 				</div>
 
@@ -516,13 +516,13 @@ Left right features accordion START -->
 					<div class="accordion-item mb-4">
 						<div class="accordion-header font-base" id="heading-1">
 							<button class="accordion-button fw-semibold rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
-								What payment methods do you accept?
+							What is an eCommerce website?
 							</button>
 						</div>
 						<!-- Body -->
 						<div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#accordionFaq">
 							<div class="accordion-body pt-0 pt-0">
-								We accept all major credit cards, PayPal, and bank transfers for custom plans. Our expert team will turn your concept into a working prototype within 24 hours, ensuring rapid progress and immediate feedback.
+								An eCommerce website is an online platform where businesses can sell products or services, and customers can browse, shop, and make purchases securely over the internet. It typically includes features like product listings, a shopping cart, and online payment options.
 							</div>
 						</div>
 					</div>
@@ -531,13 +531,13 @@ Left right features accordion START -->
 					<div class="accordion-item mb-4">
 						<div class="accordion-header font-base" id="heading-2">
 							<button class="accordion-button fw-semibold rounded collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
-								Can I change my plan later?
+							How do customers pay on an eCommerce website?
 							</button>
 						</div>
 						<!-- Body -->
 						<div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#accordionFaq">
 							<div class="accordion-body pt-0">
-								Yes, you can upgrade or downgrade your plan at any time from your account settings. We provide a range of tools, guides, and best practices to help you create designs, websites.
+							Customers can pay using various secure payment methods like credit/debit cards, digital wallets (e.g., PayPal), net banking, or even cash on delivery (if enabled).
 							</div>
 						</div>
 					</div>
@@ -546,13 +546,13 @@ Left right features accordion START -->
 					<div class="accordion-item mb-4">
 						<div class="accordion-header font-base" id="heading-3">
 							<button class="accordion-button fw-semibold collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
-								Is there a free trial available?
+							Can I sell both physical and digital products?	
 							</button>
 						</div>
 						<!-- Body -->
 						<div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#accordionFaq">
 							<div class="accordion-body pt-0">
-								Yes, we offer a 14-day free trial for our Basic and Standard plans. No credit card required.
+								Yes, most eCommerce platforms support selling both physical items (like clothes or gadgets) and digital products (like ebooks, software, or online courses).
 							</div>
 						</div>
 					</div>
@@ -561,13 +561,13 @@ Left right features accordion START -->
 					<div class="accordion-item mb-4">
 						<div class="accordion-header font-base" id="heading-4">
 							<button class="accordion-button fw-semibold collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
-								How does customer support work?
+								Is it safe to run an online store?
 							</button>
 						</div>
 						<!-- Body -->
 						<div id="collapse-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#accordionFaq">
 							<div class="accordion-body pt-0">
-								Our Basic plan includes email support, while the Standard and Custom plans offer priority email and dedicated account manager support, respectively.
+							Absolutely—eCommerce websites use encryption (SSL) and secure payment gateways to protect customer data and transactions. Just make sure your platform is reputable and regularly updated.
 							</div>
 						</div>
 					</div> 
