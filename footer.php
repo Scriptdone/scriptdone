@@ -7,7 +7,7 @@
 				<!-- logo -->
 				<a class="navbar-brand me-0" href="index.html">
 					<img class="light-mode-item navbar-brand-item h-40px" src="assets/img/logo.svg" alt="logo">
-					<img class="dark-mode-item navbar-brand-item h-40px" src="assets/img/logo-light.svg" alt="logo">
+					<img class="dark-mode-item navbar-brand-item h-40px" src="assets/img/logo.svg" alt="logo">
 				</a>
 
 				<p class="my-3 my-lg-4">A Bootstrap theme that's both stylish and functional, perfect for any type of technology or corporate website.</p>
@@ -59,9 +59,9 @@
 				<ul class="list-inline align-items-center mb-0 mt-3 mt-sm-4">
 					<li class="list-inline-item heading-color fw-semibold">Follow on:</li>
 					<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-facebook" href="#"><i class="bi bi-facebook lh-base"></i></a> </li>
-					<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-instagram" href="#"><i class="bi bi-instagram lh-base"></i></a> </li>
+					<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-instagram" href="https://www.instagram.com/scriptdone_/"><i class="bi bi-instagram lh-base"></i></a> </li>
 					<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-twitter-x" href="#"><i class="bi bi-twitter-x lh-base"></i></a> </li>
-					<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-linkedin" href="#"><i class="bi bi-linkedin lh-base"></i></a> </li>
+					<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-linkedin" href="https://www.linkedin.com/company/scriptdone/posts/?feedView=all"><i class="bi bi-linkedin lh-base"></i></a> </li>
 				</ul>
 
 			</div>

@@ -3,13 +3,13 @@
 <html lang="en">
 <head>
 	
-	<title>Folio - Multipurpose Bootstrap Theme</title>
+	<title>Scriptdone.com</title>
 
 	<!-- Meta Tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="StackBros">
-	<meta name="description" content="multipurpose bootstrap theme">
+	<meta name="author" content="scriptdone">
+	<meta name="description" content="scriptdone">
 
 	<!-- Dark mode -->
 

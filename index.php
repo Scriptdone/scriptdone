@@ -28,7 +28,7 @@ Hero START -->
 	
 				<!-- Buttons -->
 				<div class="d-flex justify-content-center flex-wrap gap-3 mt-4 mt-xl-5">
-					<input type="text" placeholder="Phone Number">
+					<input type="text" placeholder="Phone Number" id="phone-number">
 					<a href="#" class="btn btn-white-shadow mb-0">Get started</a>
 				</div>
 			</div>
@@ -49,7 +49,10 @@ Hero START -->
 			</span>
 		
 			<!-- Images -->
-			<img src="assets/img/chat-boat.jpg" class="rounded-4 shadow-sm" alt="chatbot image">
+			<!-- <img src="assets/img/chat-boat.jpg" class="rounded-4 shadow-sm" alt="chatbot image"> -->
+			 <video controls class="deginer" autoplay muted loop playsinline>
+ 			 <source src="assets/vedio/deginer.mp4" type="video/mp4">
+			</video>
 
 			<!-- Decoration image -->
 			<img src="assets/img/chat-heart.png" class="position-absolute top-0 start-0 ms-8 mt-n4 d-none d-sm-block" alt="">
@@ -186,7 +189,7 @@ Left right features accordion START -->
 			<div class="col-lg-6 col-xl-5 order-2">
 				<div class="bg-secondary-grad rounded-4 position-relative p-4">
 					<!-- Saas image -->
-					<img src="assets/img/chatbot-03.png" alt="Saas image">
+					<img src="assets/img/eco-working.png" alt="Saas image">
 				</div>
 			</div>
 
@@ -272,8 +275,7 @@ Left right features accordion START -->
 
 			<!-- Image -->
 			<div class="col-lg-6 position-relative ps-lg-5">
-				<img src="assets/img/chatbot-02.png" class="position-relative z-index-2" alt="chatbot feature image">
-
+				<img src="assets/img/eco-working-store.png" class="position-relative z-index-2" alt="chatbot feature image">
 				<!-- Blur decoration -->
 				<div class="position-absolute top-50 start-50 translate-middle ms-n6">
 					<img src="assets/img/blur-decoration-2.svg" class="blur-9 opacity-3" alt="Grad shape">
@@ -493,7 +495,7 @@ Left right features accordion START -->
 
 				<!-- Button -->
 				 <div class="col-lg-6 position-absolute end-0 top-0 mt-n3 me-n5 d-none d-lg-block">
-					<img src="assets/img/elements/chatbot-cta.png" alt="">
+					<img src="assets/img/eco-working" alt="" >
 				 </div>
 			</div>
 		</div>
