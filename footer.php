@@ -3,23 +3,23 @@
 		<!-- Widgets START -->
 		<div class="row g-4">
 			<!-- Widget 1 -->
-			<div class="col-lg-4">
+			<div class="col-lg-5">
 				<!-- logo -->
 				<a class="navbar-brand me-0" href="index.html">
 					<img class="light-mode-item navbar-brand-item h-40px" src="assets/img/logo.svg" alt="logo">
 					<img class="dark-mode-item navbar-brand-item h-40px" src="assets/img/logo.svg" alt="logo">
 				</a>
 
-				<p class="my-3 my-lg-4">A Bootstrap theme that's both stylish and functional, perfect for any type of technology or corporate website.</p>
+				<p class="my-3 my-lg-4">Scriptdone Commerce provides complete tech support development, hosting, security, and maintenance for smooth, hassle-free online business operations.</p>
 				<!-- List -->
 				<ul class="list-group list-group-borderless">
-					<li class="d-flex mb-2"><a href="#" class="text-primary-hover"><i class="me-2 text-primary bi bi-headset"></i> (251) 854-6308 </a></li>
-					<li class="d-flex mb-2"><a href="#" class="text-primary-hover"><i class="me-2 text-primary bi bi-envelope"></i> example@gmail.com</a></li>
+					<li class="d-flex mb-2"><a href="#" class="text-primary-hover"><i class="me-2 text-primary bi bi-headset"></i> +91 9868382824 </a></li>
+					<li class="d-flex mb-2"><a href="#" class="text-primary-hover"><i class="me-2 text-primary bi bi-envelope"></i> support@scriptdone.com</a></li>
 				</ul>
 			</div>
 
 			<!-- Widget 2 -->
-			<div class="col-6 col-md-3 col-lg-2">
+			<div class="col-6 col-md-5 col-lg-2">
 				<h6 class="mb-3 mb-sm-4">Company</h6>
 				<!-- Links -->
 				<ul class="nav flex-column gap-1">
@@ -32,18 +32,7 @@
 				</ul>
 			</div>
 
-			<!-- Widget 3 -->
-			<div class="col-6 col-md-3 col-lg-2">
-				<h6 class="mb-3 mb-sm-4">Resources</h6>
-				<!-- Links -->
-				<ul class="nav flex-column gap-1">
-					<li class="nav-item"><a class="nav-link pt-0" href="portfolio-case-study-v1.html">Case studies</a></li>
-					<li class="nav-item"><a class="nav-link" href="pricing-v1.html">Pricing <span class="badge bg-success ms-2">New</span></a></li>
-					<li class="nav-item"><a class="nav-link" href="blog-minimal.html">Blogs</a></li>
-					<li class="nav-item"><a class="nav-link" href="blog-single.html">Blog detail</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Success stories<i class="bi bi-box-arrow-up-right small ms-2"></i></a></li>
-				</ul>
-			</div>
+	
 
 			<!-- Widget 4 -->
 			<div class="col-md-6 col-lg-4">
@@ -103,5 +92,18 @@ Footer END -->
 <script src="assets/js/functions.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ityped/1.0.3/index.js" integrity="sha512-1/q+inTf9HWl7aMicUkYdJhKWvVaB5EZhBM0mDh6k7GZ6jaxCjPnmpf73x4Okva7wipG5A+9sJq3Uy5d8KPINA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/68403cfa678f5e19096f1197/1istesdjp';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 </html>

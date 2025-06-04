@@ -66,12 +66,12 @@ Hero END -->
 
 <!-- =======================
 Clients START -->
-<section class="pt-0">
+<!-- <section class="pt-0">
 	<div class="container">
-		<!-- Title -->
-		<h6 class="text-center mb-5">Trusted by 10,000+ marketers at leading companies</h6>
 
-		<!-- Client slider START -->
+		<h6 class="text-center mb-5">Our product supports all of these platforms.</h6>
+
+		
 		<div class="swiper" data-swiper-options='{
 			"slidesPerView": 2, 
 				"spaceBetween": 50,
@@ -82,9 +82,9 @@ Clients START -->
 					"1400": {"slidesPerView": 7}
 				}}'>
 	
-			<!-- Slider items -->
+			
 			<div class="swiper-wrapper align-items-center">
-				<!-- Image -->
+			
 				<div class="swiper-slide">
 					<div class="swap-logo">
 						<img src="assets/img//01.svg" alt="client-img">
@@ -94,7 +94,7 @@ Clients START -->
 						</div>
 					</div>
 				</div>
-				<!-- Image -->
+				
 				<div class="swiper-slide">
 					<div class="swap-logo">
 						<img src="assets/img//02.svg" alt="client-img">
@@ -104,7 +104,7 @@ Clients START -->
 						</div>
 					</div>
 				</div>
-				<!-- Image -->
+				
 				<div class="swiper-slide">
 					<div class="swap-logo">
 						<img src="assets/img//03.svg" alt="client-img">
@@ -114,7 +114,7 @@ Clients START -->
 						</div>
 					</div>
 				</div>
-				<!-- Image -->
+				
 				<div class="swiper-slide">
 					<div class="swap-logo">
 						<img src="assets/img//04.svg" alt="client-img">
@@ -124,7 +124,7 @@ Clients START -->
 						</div>
 					</div>
 				</div>
-				<!-- Image -->
+				
 				<div class="swiper-slide">
 					<div class="swap-logo">
 						<img src="assets/img//05.svg" alt="client-img">
@@ -134,7 +134,7 @@ Clients START -->
 						</div>
 					</div>
 				</div>
-				<!-- Image -->
+				
 				<div class="swiper-slide">
 					<div class="swap-logo">
 						<img src="assets/img//06.svg" alt="client-img">
@@ -144,7 +144,7 @@ Clients START -->
 						</div>
 					</div>
 				</div>
-				<!-- Image -->
+				
 				<div class="swiper-slide">
 					<div class="swap-logo">
 						<img src="assets/img//07.svg" alt="client-img">
@@ -154,7 +154,7 @@ Clients START -->
 						</div>
 					</div>
 				</div>
-				<!-- Image -->
+				
 				<div class="swiper-slide">
 					<div class="swap-logo">
 						<img src="assets/img//08.svg" alt="client-img">
@@ -164,7 +164,7 @@ Clients START -->
 						</div>
 					</div>
 				</div>
-				<!-- Image -->
+				
 				<div class="swiper-slide">
 					<div class="swap-logo">
 						<img src="assets/img//09.svg" alt="client-img">
@@ -176,9 +176,9 @@ Clients START -->
 				</div>
 			</div>
 		</div>
-		<!-- Client slider END -->
+		
 	</div>
-</section>
+</section> -->
 <!-- =======================
 Clients END -->
 
@@ -295,69 +295,69 @@ Left right features accordion START -->
 			<div class="container position-relative z-index-2">
 				<!-- Integrations START -->
 				<div class="row mb-6 mb-md-8">
-					<!-- Integrations logos -->
-					<div class="col-12 mb-6">
+
+					<!-- <div class="col-12 mb-6">
 						<div class="d-flex justify-content-center align-items-center gap-2 gap-sm-4">
-							<!-- Icon -->
+							
 							<div class="icon-md text-center shadow-primary bg-body rounded-circle flex-shrink-0 d-none d-md-block">
 								<img src="assets/img/04.svg" class="w-20px" alt="">
 							</div>
 				
-							<!-- Icon -->
+						
 							<div class="icon-lg text-center shadow-primary bg-body rounded-circle flex-shrink-0 d-none d-sm-block">
 								<img src="assets/img/05.svg" class="w-30px" alt="">
 							</div>
 
-							<!-- Icon -->
+							
 							<div class="icon-xl text-center shadow-primary bg-body rounded-circle flex-shrink-0" style="line-height: 4.3rem;">
 								<img src="assets/img/02.svg" class="h-40px" alt="">
 							</div>
 				
-							<!-- Icon -->
+							
 							<div class="icon-xl text-center shadow-primary bg-body rounded-circle flex-shrink-0" style="line-height: 4.3rem;">
 								<img src="assets/img/01.svg" class="h-40px" alt="">
 							</div>
 				
-							<!-- Icon -->
+							
 							<div class="icon-xxl text-center shadow-primary bg-body rounded-circle flex-shrink-0 ripple-anim" style="line-height: 6.8rem;">
 								<img src="assets/img/scriptdone-fab-logo.svg" class="h-60px" alt="">
 							</div>
 
-							<!-- Icon -->
+						
 							<div class="icon-xl text-center shadow-primary bg-body rounded-circle flex-shrink-0" style="line-height: 4.3rem;">
 								<img src="assets/img/06.svg" class="h-40px" alt="">
 							</div>
 				
-							<!-- Icon -->
+							
 							<div class="icon-xl text-center shadow-primary bg-body rounded-circle flex-shrink-0">
 								<img src="assets/img/07.svg" class="w-30px" alt="">
 							</div>
 				
-							<!-- Icon -->
+							
 							<div class="icon-lg text-center shadow-primary bg-body rounded-circle flex-shrink-0 d-none d-sm-block">
 								<img src="assets/img/08.svg" class="w-30px" alt="">
 							</div>
 				
-							<!-- Icon -->
+							
 							<div class="icon-md text-center shadow-primary bg-body rounded-circle flex-shrink-0 d-none d-md-block">
 								<img src="assets/img/09.svg" class="w-20px" alt="">
 							</div>
 						</div>
 					</div>
 
-					<!-- Title and contents -->
+					 -->
 					<div class="col-xxl-8 text-center mx-auto">
-						<!-- Title -->
+						
 						<h1 class="fw-bold mb-4 lh-base">Benefits of Our <span class="text-primary">Ecommerce</span> Design Services</h1>
 
-						<!-- Desc -->
+						
 						<p class="mb-4">Our Ecommerce design services are focused on creating user-friendly, responsive, and SEO-optimized online stores that enhance customer experience and drive sales. Whether you're starting fresh or revamping an existing site, we provide custom solutions to match your brand and business goals.</p>
 
-						<!-- Button -->
+					
 						<a href="integrations.html" class="btn btn-primary-grad icon-link icon-link-hover mb-0">Integrate with your apps <i class="bi bi-arrow-right"></i></a>
 					</div>
 				</div>
-				<!-- Integrations END -->
+			
 
 				<!-- Features START -->
 				<div class="row g-4 g-lg-6">
