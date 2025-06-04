@@ -618,3 +618,19 @@ e.init();
 
 
 
+    window.onload = () => {
+      const app = document.getElementById('typewriter');
+
+      const typewriter = new Typewriter(app, {
+        loop: true,
+        delay: 80,
+      });
+
+      typewriter
+        .typeString('Effortless Sales, Endless gOpportunity')
+        .pauseFor(1500)
+        .deleteAll()
+        // .typeString('🚀 It works with just CDN.')
+        // .pauseFor(1500)
+        .start();
+    };
