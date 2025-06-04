@@ -108,13 +108,15 @@
 
 				<!-- Authentication button -->
 				<li class="nav-item bg-secondary rounded d-none d-sm-block gap-1 ms-2 p-1">
-					<a href="sign-up.html" class="btn btn-sm btn-secondary mb-0">Login</a>
-					<a href="sign-up.html" class="btn btn-sm btn-primary mb-0">Sign up</a>
+					<a href="#" class="btn btn-sm btn-secondary mb-0" id="getFree" onclick="openPopup()">Get Free </a>
+					<!-- <a href="sign-up.html" class="btn btn-sm btn-primary mb-0">Sign up</a> -->
 				</li>
+
+
 
 				<!-- Responsive navbar toggler -->
 				<li class="nav-item">
-					<button class="navbar-toggler ms-sm-3 p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<button class="navbar-toggler ms-sm-3 p-2"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-animation">
 							<span></span>
 							<span></span>
@@ -126,8 +128,48 @@
 
 		</div>
 	</nav>
+
+
 	<!-- Logo Nav END -->
 </header>
 <!-- Header END -->
+
+
+
+	<!-- Contact Form Popup -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="popup-overlay" id="popupOverlay">  
+      <div class="popup-container" id="popupContainer">
+        <button class="popup-close" id="popupClose">&times;</button>
+        <div class="popup-content">
+          <h1>Contact Us</h1>
+          <p>Fill out the form below to send us a message</p>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone (Optional)</label>
+              <input type="tel" id="phone" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+	  </div>sx
+    </div>
+  </div>
+
 
 <!-- **************** MAIN CONTENT START **************** -->

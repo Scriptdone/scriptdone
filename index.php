@@ -59,6 +59,8 @@ Hero START -->
 		</div>
 	</div>
 </section>
+
+
 <!-- =======================
 Hero END -->
 
@@ -287,7 +289,7 @@ Left right features accordion START -->
 
 
 <section class="position-relative pt-0">
-	<div class="container-fluid px-xxl-6">
+	<div class="container-fluid px-xxl-6">`
 		<div class="bg-secondary bg-opacity-50 position-relative rounded-4 overflow-hidden pt-6 pt-md-8 px-sm-4 px-xxl-6">
 			<!-- Main content -->
 			<div class="container position-relative z-index-2">
@@ -318,7 +320,7 @@ Left right features accordion START -->
 				
 							<!-- Icon -->
 							<div class="icon-xxl text-center shadow-primary bg-body rounded-circle flex-shrink-0 ripple-anim" style="line-height: 6.8rem;">
-								<img src="assets/img/logo-icon.svg" class="h-60px" alt="">
+								<img src="assets/img/scriptdone-fab-logo.svg" class="h-60px" alt="">
 							</div>
 
 							<!-- Icon -->
@@ -582,4 +584,8 @@ Left right features accordion START -->
 		</div>
 	</div>
 </section>
+
+<script>
+	
+</script>
 <?php require_once('footer.php')?>

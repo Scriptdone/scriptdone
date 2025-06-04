@@ -29,6 +29,42 @@ Table Of Content
 ====================== */
 
 "use strict";
+
+
+// Open Popup (Trigger this function when needed, e.g., button click)
+
+function openPopup() {
+  document.getElementById("popupOverlay").style.display = "block";
+  document.getElementById("popupContainer").style.display = "block";
+}
+
+// Close Popup
+
+document.getElementById("popupClose").addEventListener("click", function() {
+  document.getElementById("popupOverlay").style.display = "none";
+  document.getElementById("popupContainer").style.display = "none";
+});
+
+// // Close when clicking outside
+
+// document.getElementById("popupOverlay").addEventListener("click", function() {
+//   document.getElementById("popupOverlay").style.display = "none";
+//   document.getElementById("popupContainer").style.display = "none";
+// });
+
+// Form Submission (Optional)
+
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  alert("Message sent successfully!");
+
+  document.getElementById("popupOverlay").style.display = "none";
+  document.getElementById("popupContainer").style.display = "none";
+  
+    // Reset form (clears all inputs)
+  this.reset();
+});
+
 !function () {
 
     window.Element.prototype.removeClass = function () {
@@ -579,3 +615,6 @@ var e = {
 
 };
 e.init();
+
+
+
