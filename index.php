@@ -15,7 +15,7 @@ Hero START -->
 		<div class="container position-relative pb-7" data-bs-theme="dark">
 			<div class="inner-container">
 				<!-- Main title -->
-				<h1 class="text-center mb-0">Begin selling now. Achieve   <span class="text-purple">unlimited </span>growth</h1>
+				<h1 class="text-center mb-0">Take you Business online <span class="text-purple">in Minutes</span> Effortless Sales, Endless Opportunity.</h1>
 	
 				<!-- List -->
 				<ul class="list-inline d-flex justify-content-center flex-wrap gap-2 gap-md-4 mb-0 mt-4 mt-xl-5">
@@ -55,7 +55,7 @@ Hero START -->
 			</video>
 
 			<!-- Decoration image -->
-			<img src="assets/img/chat-heart.png" class="position-absolute top-0 start-0 ms-8 mt-n4 d-none d-sm-block" alt="">
+			<!-- <img src="assets/img/chat-heart.png" class="position-absolute top-0 start-0 ms-8 mt-n4 d-none d-sm-block" alt=""> -->
 		</div>
 	</div>
 </section>
@@ -191,7 +191,7 @@ Left right features accordion START -->
 			<div class="col-lg-6 col-xl-5 order-2">
 				<div class="bg-secondary-grad rounded-4 position-relative p-4">
 					<!-- Saas image -->
-					<img src="assets/img/eco-working.png" alt="Saas image">
+					<img src="assets/img/Personalization-cuate.svg" alt="Saas image">
 				</div>
 			</div>
 
@@ -277,7 +277,7 @@ Left right features accordion START -->
 
 			<!-- Image -->
 			<div class="col-lg-6 position-relative ps-lg-5">
-				<img src="assets/img/eco-working-store.png" class="position-relative z-index-2" alt="chatbot feature image">
+				<img src="assets/img/Ecommerce web page-bro.svg" class="position-relative z-index-2" alt="chatbot feature image">
 				<!-- Blur decoration -->
 				<div class="position-absolute top-50 start-50 translate-middle ms-n6">
 					<img src="assets/img/blur-decoration-2.svg" class="blur-9 opacity-3" alt="Grad shape">

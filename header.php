@@ -167,7 +167,7 @@
           </form>
         </div>
       </div>
-	  </div>sx
+	  </div>
     </div>
   </div>
 
