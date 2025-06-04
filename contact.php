@@ -15,8 +15,7 @@ Hero START -->
 		<span class="h2">👋</span>
 		<h1 class="display-5 mt-3">Let's Connect</h1>
 
-		<p class="mb-1">We’re here to help </p>
-		<p>Support hours: <span class="text-primary fw-bold">24/7</span></p>
+		
 	</div>
 </section>
 <!-- =======================
@@ -40,7 +39,7 @@ Contact info START -->
 					</div>
 					<!-- Card footer -->
 					<div class="card-footer bg-transparent p-0 pt-3">
-						<a href="#" class="text-primary-grad">+(251) 854-6308</a>
+						<a href="#" class="text-primary-grad">+91-9868382824</a>
 					</div>
 				</div>
 			</div>
@@ -57,7 +56,7 @@ Contact info START -->
 					</div>
 					<!-- Card footer -->
 					<div class="card-footer bg-transparent p-0 pt-3">
-						<a href="#" class="text-primary-grad">example@gmail.com</a>
+						<a href="#" class="text-primary-grad">support@scriptdone.com</a>
 					</div>
 				</div>
 			</div>
@@ -138,13 +137,7 @@ Contact form START -->
 					<!-- Button -->
 					<button class="btn btn-primary mb-2 mb-md-0">Send a message</button>
 					<!-- Social links -->
-					<ul class="list-inline mb-0 ms-auto">
-						<li class="list-inline-item small heading-color">Connect with:</li>
-						<li class="list-inline-item"> <a href="#" class="heading-color text-primary-hover"><i class="bi bi-facebook"></i></a> </li>
-						<li class="list-inline-item"> <a href="#" class="heading-color text-primary-hover"><i class="bi bi-instagram"></i></a> </li>
-						<li class="list-inline-item"> <a href="#" class="heading-color text-primary-hover"><i class="bi bi-twitter-x"></i></a> </li>
-						<li class="list-inline-item"> <a href="#" class="heading-color text-primary-hover"><i class="bi bi-linkedin"></i></a> </li>
-					</ul>
+				
 				</div>
 			</form>
 			<!-- Form END -->
@@ -166,7 +159,7 @@ Map and office detail START -->
 		<div class="row g-4 align-items-center">
 			<!-- Map -->
 			<div class="col-lg-5">
-				<iframe class="w-100 h-200px h-lg-500px grayscale rounded-4 d-block mb-3 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878428698!3d40.74076684379132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cfce5383d5d!2sGoogle!5e0!3m2!1sen!2sin!4v1586000412513!5m2!1sen!2sin" style="margin-bottom: -5px;" aria-hidden="false" tabindex="0"></iframe>	
+				<iframe class="w-100 h-200px h-lg-500px grayscale rounded-4 d-block mb-3 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0129009014154!2d77.15878197629362!3d28.65933238286174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0374995034e9%3A0x7543ad08f04f2b52!2sScriptdone%20Software!5e0!3m2!1sen!2sin!4v1749041265982!5m2!1sen!2sin" style="margin-bottom: -5px;" aria-hidden="false" tabindex="0"></iframe>	
 			</div>
 
 			<div class="col-lg-7 ps-lg-6">
@@ -175,43 +168,26 @@ Map and office detail START -->
 
 				<!-- Office details -->
 				<div class="row g-4 mb-4">
+		
 					<!-- Office item -->
-					<div class="col-md-6">
+					<div class="col-md-12">
 						<!-- Title and country image -->
 						<div class="d-flex align-items-center gap-2">
 							<div class="avatar avatar-xs flex-shrink-0">
-								<img class="avatar-img rounded-circle" src="assets/images/flags/uk.svg" alt="avatar">
-							</div>
-							<h6 class="mb-0">New York, USA (HQ)</h6>
-						</div>
-						<!-- List -->
-						 <ul class="mb-0 mt-3">
-							<li class="mb-2">750 Sing Sing Rd, Horseheads, NY, 14845</li>
-							<li class="mb-2">Call: 469-537-2410 (Toll-free)</li>
-							<li class="mb-2">Support time: Monday to Saturday 9:00 am to 5:30 pm</li>
-						 </ul>
-					</div>
-
-					<!-- Office item -->
-					<div class="col-md-6">
-						<!-- Title and country image -->
-						<div class="d-flex align-items-center gap-2">
-							<div class="avatar avatar-xs flex-shrink-0">
-								<img class="avatar-img rounded-circle" src="assets/images/flags/in.svg" alt="avatar">
+								<img class="avatar-img rounded-circle" src="assets/img/Flag_of_India.svg.png" alt="avatar">
 							</div>
 							<h6 class="mb-0">India</h6>
 						</div>
 						<!-- List -->
 						 <ul class="mb-0 mt-3">
-							<li class="mb-2">55/123 Norman street, Banking road, Sydney NSW 5000</li>
-							<li class="mb-2">Call: 258-698-2410 (Toll-free)</li>
+							<li class="mb-2">I5/t36, Panjabi basti, Block B, Baljit Nagar, Sanjay park, New Delhi, Delhi, 110008</li>
+							<li class="mb-2">Call: +91 9868382824 (Toll-free)</li>
 							<li class="mb-2">Support time: Monday to Saturday 9:00 am to 5:30 pm</li>
 						 </ul>
 					</div>
 				</div>
 
-				<!-- Button -->
-				<a class="btn btn-secondary icon-link icon-link-hover" href="#">Contact our help center<i class="bi bi-arrow-right"></i> </a>
+				
 			</div>
 		</div> <!-- Row END -->
 	</div>
