@@ -54,16 +54,16 @@ document.getElementById("popupClose").addEventListener("click", function() {
 
 // Form Submission (Optional)
 
-document.getElementById("contactForm").addEventListener("submit", function(e) {
-  e.preventDefault();
-  alert("Message sent successfully!");
+// document.getElementById("contactForm").addEventListener("submit", function(e) {
+//   e.preventDefault();
+//   alert("Message sent successfully!");
 
-  document.getElementById("popupOverlay").style.display = "none";
-  document.getElementById("popupContainer").style.display = "none";
+//   document.getElementById("popupOverlay").style.display = "none";
+//   document.getElementById("popupContainer").style.display = "none";
   
-    // Reset form (clears all inputs)
-  this.reset();
-});
+//     // Reset form (clears all inputs)
+//   this.reset();
+// });
 
 !function () {
 
@@ -616,7 +616,7 @@ var e = {
 };
 e.init();
 
-
+// ==================typing code=======================
 
     window.onload = () => {
       const app = document.getElementById('typewriter');
@@ -627,10 +627,20 @@ e.init();
       });
 
       typewriter
-        .typeString('Effortless Sales, Endless gOpportunity')
+        .typeString('Effortless Sales')
         .pauseFor(1500)
         .deleteAll()
-        // .typeString('🚀 It works with just CDN.')
-        // .pauseFor(1500)
+        .typeString(' Endless Opportunity')
+        .pauseFor(1500)
         .start();
     };
+
+
+// ======================email=conformation=======================
+if (sessionStatus && sessionStatus !== '') {
+    Swal.fire({
+        title: 'Thank you',
+        text: sessionStatus,
+        icon: 'question',
+    });
+}

@@ -1,3 +1,4 @@
+<?php session_start();?>
 <footer class="bg-dark position-relative pt-6 pt-xl-8" data-bs-theme="dark">
 	<div class="container">
 		<!-- Widgets START -->
@@ -88,6 +89,8 @@ Footer END -->
 <!--Vendors-->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+<script src="sweetalert2.all.min.js"></script>
+
 <!-- Theme Functions -->
 <script src="assets/js/functions.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ityped/1.0.3/index.js" integrity="sha512-1/q+inTf9HWl7aMicUkYdJhKWvVaB5EZhBM0mDh6k7GZ6jaxCjPnmpf73x4Okva7wipG5A+9sJq3Uy5d8KPINA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -104,6 +107,14 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
+
+<script>
+    // Pass PHP session data to JavaScript
+    const sessionStatus = "<?= isset($_SESSION['status']) ? addslashes($_SESSION['status']) : '' ?>";
+    <?php unset($_SESSION['status']); ?>
+</script>
+
+  </script>
 <!--End of Tawk.to Script-->
 </body>
 </html>

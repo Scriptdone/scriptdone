@@ -1,4 +1,4 @@
-
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +28,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 	<!-- Theme CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="sweetalert2.min.css">
 
 </head>
 
@@ -146,30 +147,32 @@
         <div class="popup-content">
           <h1>Contact Us</h1>
           <p>Fill out the form below to send us a message</p>
-          <form id="contactForm">
+          <form action="sendmail.php" method="post" id="contactForm">
             <div class="form-group">
-              <label for="fullName">Full Name</label>
-              <input type="text" id="fullName" class="form-control" required>
+              <label">Full Name</label>
+              <input name="fullname" type="text" id="fullName" class="form-control" required>
             </div>
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" id="email" class="form-control" required>
+              <input name="email" type="email" id="email" class="form-control" required>
             </div>
             <div class="form-group">
               <label for="phone">Phone (Optional)</label>
-              <input type="tel" id="phone" class="form-control">
+              <input name="mobile" type="tel" id="phone" class="form-control">
             </div>
             <div class="form-group">
               <label for="message">Your Message</label>
-              <textarea id="message" class="form-control" rows="4" required></textarea>
+              <textarea  name="message" id="message" class="form-control" rows="4" required></textarea>
             </div>
-            <button type="submit" class="btn-submit">Send Message</button>
+            <button type="submit" name="sendform" class="btn-submit">Send Message</button>
           </form>
         </div>
       </div>
 	  </div>
-    </div>
+    </div> 
   </div>
+
+
 
 
 <!-- **************** MAIN CONTENT START **************** -->
