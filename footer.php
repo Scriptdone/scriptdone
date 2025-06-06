@@ -62,16 +62,7 @@
 		<hr class="my-4 mt-xl-5 mb-0">
 
 		<!-- Bottom footer -->
-		<div class="d-md-flex justify-content-between align-items-center text-center text-lg-start py-4">
-			<!-- copyright text -->
-			<div class="text-body small mb-3 mb-md-0"> Copyrights ©2025 Folio. Build by <a href="#" target="_blank" class="text-body text-primary-hover hover-underline-animation">StackBros</a>. </div>
-			
-			<!-- Policy link -->
-			<ul class="nav d-flex justify-content-center gap-1 mb-0">
-				<li class="nav-item"><a class="nav-link small py-0" href="#">Privacy policy</a></li>
-				<li class="nav-item"><a class="nav-link small py-0 pe-0" href="#">Terms & conditions</a></li>
-			</ul>
-		</div>
+		
 	</div>
 </footer>
 <!-- =======================
