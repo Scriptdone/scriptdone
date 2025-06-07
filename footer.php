@@ -80,11 +80,13 @@ Footer END -->
 <!--Vendors-->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<script src="sweetalert2.all.min.js"></script>
 
 <!-- Theme Functions -->
 <script src="assets/js/functions.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ityped/1.0.3/index.js" integrity="sha512-1/q+inTf9HWl7aMicUkYdJhKWvVaB5EZhBM0mDh6k7GZ6jaxCjPnmpf73x4Okva7wipG5A+9sJq3Uy5d8KPINA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="sweetalert2.all.min.js"></script>
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
@@ -101,11 +103,18 @@ s0.parentNode.insertBefore(s1,s0);
 
 <script>
     // Pass PHP session data to JavaScript
-    const sessionStatus = "<?= isset($_SESSION['status']) ? addslashes($_SESSION['status']) : '' ?>";
-    <?php unset($_SESSION['status']); ?>
+    window.onload = () => {
+        const sessionStatus = "<?= isset($_SESSION['status']) ? addslashes($_SESSION['status']) : '' ?>";
+        <?php unset($_SESSION['status']); ?>
+        
+        // Now you can use sessionStatus here
+        if (sessionStatus) {
+            console.log("Session status:", sessionStatus);
+            // Do something with the 
+			alert("your enquary send our team rechout")
+        }
+    };
 </script>
-
-  </script>
 <!--End of Tawk.to Script-->
 </body>
 </html>

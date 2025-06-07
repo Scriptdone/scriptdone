@@ -638,9 +638,10 @@ e.init();
 
 // ======================email=conformation=======================
 if (sessionStatus && sessionStatus !== '') {
-    Swal.fire({
-        title: 'Thank you',
-        text: sessionStatus,
-        icon: 'question',
-    });
+    // Swal.fire({
+    //     title: 'Thank you',
+    //     text: sessionStatus,
+    //     icon: 'question',
+    // });
+    consolel.log("sdf")
 }
