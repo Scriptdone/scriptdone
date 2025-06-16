@@ -1,4 +1,3 @@
-<?php session_start();?>
 <footer class="bg-dark position-relative pt-6 pt-xl-8" data-bs-theme="dark">
 	<div class="container">
 		<!-- Widgets START -->
@@ -32,9 +31,6 @@
 					<li class="nav-item"><a class="nav-link" href="service-v1.html">Services</a></li>
 				</ul>
 			</div>
-
-	
-
 			<!-- Widget 4 -->
 			<div class="col-md-6 col-lg-4">
 				<h6 class="mb-3 mb-sm-4">Stay connected with us</h6>
@@ -70,23 +66,23 @@ Footer END -->
 
 <!-- Back to top -->
 <div class="back-top"></div>
-
-
-
+ 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 
+<!-- In your HTML head or before closing </body> -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://unpkg.com/typewriter-effect@2.18.0/dist/core.js"></script>
 <!--Vendors-->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <!-- Theme Functions -->
 <script src="assets/js/functions.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ityped/1.0.3/index.js" integrity="sha512-1/q+inTf9HWl7aMicUkYdJhKWvVaB5EZhBM0mDh6k7GZ6jaxCjPnmpf73x4Okva7wipG5A+9sJq3Uy5d8KPINA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
-<script src="sweetalert2.all.min.js"></script>
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
@@ -100,21 +96,13 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
+<!--End of Tawk.to Script-->
+
 
 <script>
-    // Pass PHP session data to JavaScript
-    window.onload = () => {
-        const sessionStatus = "<?= isset($_SESSION['status']) ? addslashes($_SESSION['status']) : '' ?>";
-        <?php unset($_SESSION['status']); ?>
-        
-        // Now you can use sessionStatus here
-        if (sessionStatus) {
-            console.log("Session status:", sessionStatus);
-            // Do something with the 
-			alert("your enquary send our team rechout")
-        }
-    };
+
 </script>
-<!--End of Tawk.to Script-->
+
+
 </body>
 </html>
