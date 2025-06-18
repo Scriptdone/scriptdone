@@ -636,12 +636,241 @@ e.init();
     };
 
 
-// ======================email=conformation=======================
-if (sessionStatus && sessionStatus !== '') {
-    // Swal.fire({
-    //     title: 'Thank you',
-    //     text: sessionStatus,
-    //     icon: 'question',
-    // });
-    consolel.log("sdf")
+// // ======================email=conformation=======================
+// if (sessionStatus && sessionStatus !== '') {
+//     // Swal.fire({
+//     //     title: 'Thank you',
+//     //     text: sessionStatus,
+//     //     icon: 'question',
+//     // });
+//     consolel.log("sdf")
+// }
+
+
+
+// =======n================
+
+	$(document).ready(function() {
+    $("#myLink").on('click', function(e) {
+        e.preventDefault();
+        const phoneNumber = $("#phone-number").val().trim();
+
+
+		
+        // Validate 10 digits
+        if (!phoneNumber || !/^\d{10}$/.test(phoneNumber)) {
+Swal.fire({
+ title: "Please Enter 10 digit Mobile number",
+  text: "You won't be able to revert this!",
+  icon: "warning",
+});            return;
+        }
+
+        // AJAX call
+        $.ajax({
+            url: "validate.php",
+            type: "POST",
+            data: { 
+                phone: phoneNumber 
+            },
+            dataType: "json", // Expect JSON response
+            success: function(response) {
+                if (response.success) {
+                    // alert("Valid number: " + response.message);
+                    Swal.fire({
+                    title: "Good job!"  + response.message,
+                    text: "You clicked the button!",
+                 icon: "success"
+                            });
+                } else {
+                    // alert("Error: " + (response.error || "Invalid number"));
+                    Swal.fire({
+                        title: "Good job!",
+                        text: "You clicked the button!",
+                        icon: "success"
+                                });
+
+                }
+            },
+            error: function(xhr, status, error) {
+                alert("Server error: " + error);
+                console.error(xhr.responseText);
+            }
+        });
+    });
+});
+
+
+// ==========contact================
+
+$(document).ready(function() {
+    // Common validation functions
+    function isValidEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+    }
+    
+    function isValidPhone(phone) {
+        const re = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
+        return re.test(phone);
+    }
+    
+    function showError($input, message) {
+        const $formGroup = $input.closest('.form-group, .col-md-6, .col-12');
+        $formGroup.append(`<div class="error-message text-danger small mt-1">${message}</div>`);
+        $input.addClass('is-invalid');
+    }
+    
+    function clearErrors($form) {
+        $form.find('.error-message').remove();
+        $form.find('.is-invalid').removeClass('is-invalid');
+    }
+
+    // Contact Form Validation
+    $('#contactForm').on('submit', function(e) {
+        e.preventDefault();
+        const $form = $(this);
+        clearErrors($form);
+        
+        let isValid = true;
+        const $fullName = $form.find('#fullName');
+        const $email = $form.find('#email');
+        const $phone = $form.find('#phone');
+        const $message = $form.find('#message');
+        
+        // Full Name validation
+        if ($fullName.val().trim() === '') {
+            showError($fullName, 'Full name is required');
+            isValid = false;
+        }
+        
+        // Email validation
+        if ($email.val().trim() === '') {
+            showError($email, 'Email is required');
+            isValid = false;
+        } else if (!isValidEmail($email.val().trim())) {
+            showError($email, 'Please enter a valid email');
+            isValid = false;
+        }
+        
+        // Phone validation (optional)
+        if ($phone.val().trim() !== '' && !isValidPhone($phone.val().trim())) {
+            showError($phone, 'Please enter a valid phone number');
+            isValid = false;
+        }
+        
+        // Message validation
+        if ($message.val().trim() === '') {
+            showError($message, 'Message is required');
+            isValid = false;
+        }
+        
+        if (isValid) {
+            // AJAX submission for contactForm
+            submitForm($form, 'sendmail.php');
+        }
+    });
+
+// ContactUS Form Validation
+$('#contactus').on('submit', function(e) {
+    e.preventDefault();
+    const $form = $(this);
+    clearErrors($form);
+    
+    let isValid = true;
+    // Make sure these selectors match exactly with your HTML element IDs
+    const $fullName = $form.find('[name="fullName"]');
+    const $email = $form.find('[name="email"]');
+    const $phone = $form.find('[name="phone"]');
+    const $message = $form.find('[name="message"]');
+    const $privacyCheck = $form.find('[name="privacyCheck"]');
+    
+    // Full Name validation
+    if (!$fullName.length || $fullName.val().trim() === '') {
+        showError($fullName, 'Your name is required');
+        isValid = false;
+    }
+    
+    // Email validation
+    if (!$email.length || $email.val().trim() === '') {
+        showError($email, 'Email is required');
+        isValid = false;
+    } else if (!isValidEmail($email.val().trim())) {
+        showError($email, 'Please enter a valid email');
+        isValid = false;
+    }
+    
+    // Phone validation (optional)
+    if ($phone.length && $phone.val().trim() !== '' && !isValidPhone($phone.val().trim())) {
+        showError($phone, 'Please enter a valid phone number');
+        isValid = false;
+    }
+    
+    // Message validation
+    if (!$message.length || $message.val().trim() === '') {
+        showError($message, 'Message is required');
+        isValid = false;
+    }
+    
+    // Privacy checkbox validation
+    if ($privacyCheck.length && !$privacyCheck.is(':checked')) {
+        showError($privacyCheck, 'You must agree to privacy terms');
+        isValid = false;
+    }
+    
+    if (isValid) {
+        submitForm($form, 'contactus.php'); // AJAX submission
+    }
+});
+
+function submitForm($form, url) {
+    const $submitBtn = $form.find('button[type="submit"]');
+    const originalText = $submitBtn.text();
+    
+    // Disable submit button during submission
+    $submitBtn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Sending...');
+    
+    // Clear previous errors
+    clearErrors($form);
+    
+    $.ajax({
+        url: url || 'sendmail.php', // Use provided URL or default
+        type: 'POST',
+        data: $form.serialize(),
+        dataType: 'json',
+        success: function(response) {
+            if (response.success) {
+                // Show success message (consider using Toast instead of alert)
+                showSuccessMessage(response.message);
+                $form[0].reset();
+                
+                // Optional: Close modal if form is in one
+                if ($form.closest('.modal').length) {
+                    $form.closest('.modal').modal('hide');
+                }
+            } else {
+                // Show server-side validation errors
+                if (response.errors) {
+                    Object.keys(response.errors).forEach(field => {
+                        const $input = $form.find(`[name="${field}"]`);
+                        showError($input, response.errors[field]);
+                    });
+                }
+                showErrorMessage(response.message || 'Form submission failed');
+            }
+        },
+        error: function(xhr) {
+            let errorMsg = "An error occurred during submission";
+            if (xhr.responseJSON && xhr.responseJSON.message) {
+                errorMsg = xhr.responseJSON.message;
+            } else if (xhr.responseText) {
+                errorMsg = xhr.responseText;
+            }
+            showErrorMessage(errorMsg);
+        },
+        complete: function() {
+            $submitBtn.prop('disabled', false).text(originalText);
+        }
+    });
 }
+});

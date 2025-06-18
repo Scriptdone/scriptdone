@@ -102,14 +102,14 @@
         <div class="popup-content">
           <h1>Contact Us</h1>
           <p>Fill out the form below to send us a message</p>
-          <form action="sendmail.php" method="post" id="contactForm">
+          <form  method="post" id="contactForm" name="contactForm">
             <div class="form-group">
               <label">Full Name</label>
-              <input name="fullname" type="text" id="fullName" class="form-control" required>
+              <input name="fullname" type="text" id="fullName" class="form-control" >
             </div>
             <div class="form-group">
               <label for="email">Email</label>
-              <input name="email" type="email" id="email" class="form-control" required>
+              <input name="email" type="email" id="email" class="form-control" >
             </div>
             <div class="form-group">
               <label for="phone">Phone (Optional)</label>
@@ -117,7 +117,7 @@
             </div>
             <div class="form-group">
               <label for="message">Your Message</label>
-              <textarea  name="message" id="message" class="form-control" rows="4" required></textarea>
+              <textarea  name="message" id="message" class="form-control" rows="4" ></textarea>
             </div>
             <button type="submit" name="sendform" class="btn-submit">Send Message</button>
           </form>
