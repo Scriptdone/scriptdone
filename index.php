@@ -15,7 +15,7 @@ Hero START -->
 		<div class="container position-relative pb-7" data-bs-theme="dark">
 			<div class="inner-container">
 				<!-- Main title -->
-				<h1 class="text-center mb-0" >Take you Business online <span class="text-purple">in Minutes</span> <span id="typewriter">Effortless Sales, Endless Opportunity</span>.</h1>
+				<h1 class="text-center mb-0" >Take your Business online <span class="text-purple">in Minutes</span> <span id="typewriter">Effortless Sales, Endless Opportunity</span>.</h1>
 	
 				<!-- List -->
 				<ul class="list-inline d-flex justify-content-center flex-wrap gap-2 gap-md-4 mb-0 mt-4 mt-xl-5">
