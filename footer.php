@@ -1,4 +1,4 @@
-<?php session_start();?>
+
 <footer class="bg-dark position-relative pt-6 pt-xl-8" data-bs-theme="dark">
 	<div class="container">
 		<!-- Widgets START -->

@@ -48,7 +48,7 @@
 
 					
 					<!-- Nav item -->
-					<li class="nav-item"> <a class="nav-link" href="/solution.php">Solutions</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="#benift">Benefits</a> </li>
 
 					<li class="nav-item"> <a class="nav-link" href="/pricing.php">Pricing</a> </li>
 

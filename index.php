@@ -266,7 +266,7 @@ Left right features accordion START -->
 				 <p class="mb-md-4">Create a stunning, responsive online store with customizable themes, easy management from homepage to checkout, and built-in marketing tools to boost sales. Get your e-commerce site up and running with ease, designed to attract and retain customers on any device.</p>
 
 				 <!-- List -->
-				 <ul class="list-group list-group-borderless">
+				 <ul class="list-group list-group-borderless" id="benift">
 					<li class="list-group-item d-flex heading-color fw-semibold"><i class="bi bi-asterisk text-primary me-2"></i>Simple Store Setup</li>
 					<li class="list-group-item d-flex heading-color fw-semibold"><i class="bi bi-asterisk text-primary me-2"></i>Multiple Payment Options</li>
 					<li class="list-group-item d-flex heading-color fw-semibold"><i class="bi bi-asterisk text-primary me-2"></i>Hassle-Free Return Process</li>
@@ -294,7 +294,7 @@ Left right features accordion START -->
 			<!-- Main content -->
 			<div class="container position-relative z-index-2">
 				<!-- Integrations START -->
-				<div class="row mb-6 mb-md-8">
+				<div class="row mb-6 mb-md-8" >
 
 					<!-- <div class="col-12 mb-6">
 						<div class="d-flex justify-content-center align-items-center gap-2 gap-sm-4">
@@ -354,13 +354,13 @@ Left right features accordion START -->
 						<p class="mb-4">Our Ecommerce design services are focused on creating user-friendly, responsive, and SEO-optimized online stores that enhance customer experience and drive sales. Whether you're starting fresh or revamping an existing site, we provide custom solutions to match your brand and business goals.</p>
 
 					
-						<a href="integrations.html" class="btn btn-primary-grad icon-link icon-link-hover mb-0">Integrate with your apps <i class="bi bi-arrow-right"></i></a>
+						<!-- <a href="integrations.html" class="btn btn-primary-grad icon-link icon-link-hover mb-0">Integrate with your apps <i class="bi bi-arrow-right"></i></a> -->
 					</div>
 				</div>
 			
 
 				<!-- Features START -->
-				<div class="row g-4 g-lg-6">
+				<div class="row g-4 g-lg-6" >
 					<!-- Feature item -->
 					<div class="col-md-6 col-lg-4">
 						<div class="card card-body bg-transparent  p-0">
@@ -492,7 +492,7 @@ Left right features accordion START -->
 				<div class="col-lg-6">
 					<h2 class="mb-3">Begin your <span class="text-purple">free</span> trial now </h2>
 					<p class="mb-4">Begin your free trial now and take the first step toward launching your online store. With our easy-to-use tools and powerful features, you can start your store in minutes</p>
-					<a href="pricing-v1.html" class="btn btn-outline-secondary mb-0">Start free trial</a>
+					<a href="javascript:void(0)" class="btn btn-outline-secondary mb-0" onclick="openPopup()">Start free trial</a>
 				</div>
 
 				<!-- Button -->
