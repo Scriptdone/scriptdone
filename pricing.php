@@ -325,91 +325,15 @@ Compare table START -->
 		<!-- Clients START -->
 		<div class="row g-4 align-items-center mt-6">
 			<!-- Title -->
-			<div class="col-lg-3">
+			<!-- <div class="col-lg-3">
 				<div class="d-flex align-items-center justify-content-center justify-content-lg-start">
 					<h6 class="mb-0">Trusted by leading companies</h6>
 					<div class="vr bg-primary-grad opacity-1 d-none d-lg-block"></div>
 				</div>
-			</div>
+			</div> -->
 
 			<!-- Logos -->
-			<div class="col-lg-9">
-				<!-- Slider START -->
-				<div class="swiper" data-swiper-options='{
-					"slidesPerView": 2, 
-					"spaceBetween": 50,
-					"breakpoints": { 
-						"576": {"slidesPerView": 3}, 
-						"768": {"slidesPerView": 4}, 
-						"1200": {"slidesPerView": 5}
-					}}'>
-
-					<!-- Slider items -->
-					<div class="swiper-wrapper align-items-center">
-						<!-- Image -->
-						<div class="swiper-slide">
-							<div class="swap-logo">
-								<img src="assets/img/client/logo-gray/01.svg" class="p-2 p-lg-3" alt="client-img">
-								<div class="swap-item">
-									<img src="assets/img/client/logo-light/01.svg" class="dark-mode-item p-2 p-lg-3" alt="client logo">
-									<img src="assets/img/client/logo-dark/01.svg" class="light-mode-item p-2 p-lg-3" alt="client logo">
-								</div>
-							</div>
-						</div>
-						<!-- Image -->
-						<div class="swiper-slide">
-							<div class="swap-logo">
-								<img src="assets/img/client/logo-gray/02.svg" class="p-2 p-lg-3" alt="client-img">
-								<div class="swap-item">
-									<img src="assets/img/client/logo-light/02.svg" class="dark-mode-item p-2 p-lg-3" alt="client logo">
-									<img src="assets/img/client/logo-dark/02.svg" class="light-mode-item p-2 p-lg-3" alt="client logo">
-								</div>
-							</div>
-						</div>
-						<!-- Image -->
-						<div class="swiper-slide">
-							<div class="swap-logo">
-								<img src="assets/img/client/logo-gray/03.svg" class="p-2 p-lg-3" alt="client-img">
-								<div class="swap-item">
-									<img src="assets/img/client/logo-light/03.svg" class="dark-mode-item p-2 p-lg-3" alt="client logo">
-									<img src="assets/img/client/logo-dark/03.svg" class="light-mode-item p-2 p-lg-3" alt="client logo">
-								</div>
-							</div>
-						</div>
-						<!-- Image -->
-						<div class="swiper-slide">
-							<div class="swap-logo">
-								<img src="assets/img/client/logo-gray/04.svg" class="p-2 p-lg-3" alt="client-img">
-								<div class="swap-item">
-									<img src="assets/img/client/logo-light/04.svg" class="dark-mode-item p-2 p-lg-3" alt="client logo">
-									<img src="assets/img/client/logo-dark/04.svg" class="light-mode-item p-2 p-lg-3" alt="client logo">
-								</div>
-							</div>
-						</div>
-						<!-- Image -->
-						<div class="swiper-slide">
-							<div class="swap-logo">
-								<img src="assets/img/client/logo-gray/05.svg" class="p-2 p-lg-3" alt="client-img">
-								<div class="swap-item">
-									<img src="assets/img/client/logo-light/05.svg" class="dark-mode-item p-2 p-lg-3" alt="client logo">
-									<img src="assets/img/client/logo-dark/05.svg" class="light-mode-item p-2 p-lg-3" alt="client logo">
-								</div>
-							</div>
-						</div>
-						<!-- Image -->
-						<div class="swiper-slide">
-							<div class="swap-logo">
-								<img src="assets/img/client/logo-gray/06.svg" class="p-2 p-lg-3" alt="client-img">
-								<div class="swap-item">
-									<img src="assets/img/client/logo-light/06.svg" class="dark-mode-item p-2 p-lg-3" alt="client logo">
-									<img src="assets/img/client/logo-dark/06.svg" class="light-mode-item p-2 p-lg-3" alt="client logo">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Slider END -->
-			</div>
+			
 		</div>
 		<!-- Clients END -->
 	</div>

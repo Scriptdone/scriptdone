@@ -785,6 +785,7 @@ $(document).ready(function() {
 //     const $message = $form.find('[name="message"]');
 //     const $privacyCheck = $form.find('[name="privacyCheck"]');
     
+<<<<<<< HEAD
 //     // Full Name validation
 //     if (!$fullName.length || $fullName.val().trim() === '') {
 //         showError($fullName, 'Your name is required');
@@ -822,6 +823,49 @@ $(document).ready(function() {
 //         submitForm($form, 'contactus.php'); // AJAX submission
 //     }
 // });
+=======
+    // Full Name validation
+    // if (!$fullName.length || $fullName.val().trim() === '') {
+    //     showError($fullName, 'Your name is required');
+    //     isValid = false;
+    // }
+    
+    // Email validation
+    // if (!$email.length || $email.val().trim() === '') {
+    //     showError($email, 'Email is required');
+    //     isValid = false;
+    // } else if (!isValidEmail($email.val().trim())) {
+    //     showError($email, 'Please enter a valid email');
+    //     isValid = false;
+    // }
+    
+    // // Phone validation (optional)
+    // if ($phone.length && $phone.val().trim() !== '' && !isValidPhone($phone.val().trim())) {
+    //     showError($phone, 'Please enter a valid phone number');
+    //     isValid = false;
+    // }
+    
+    // // Message validation
+    // if (!$message.length || $message.val().trim() === '') {
+    //     showError($message, 'Message is required');
+    //     isValid = false;
+    // }
+    
+    // // Privacy checkbox validation
+    // if ($privacyCheck.length && !$privacyCheck.is(':checked')) {
+    //     showError($privacyCheck, 'You must agree to privacy terms');
+    //     isValid = false;
+    // }
+        
+    
+    if (isValid) {
+        submitForm($form, 'contactus.php'); // AJAX submission
+    }
+
+    console.log(isValid);
+    
+});
+>>>>>>> 55e98a77c8c7c498707e47277e1583b33acdc84c
 
 function submitForm($form, url) {
     const $submitBtn = $form.find('button[type="submit"]');
@@ -834,7 +878,7 @@ function submitForm($form, url) {
     clearErrors($form);
     
     $.ajax({
-        url: url || 'sendmail.php', // Use provided URL or default
+        url: './sendmail.php', // Use provided URL or default
         type: 'POST',
         data: $form.serialize(),
         dataType: 'json',

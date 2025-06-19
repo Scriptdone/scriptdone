@@ -3,7 +3,7 @@
 		<!-- Widgets START -->
 		<div class="row g-4">
 			<!-- Widget 1 -->
-			<div class="col-lg-5">
+			<div class="col-lg-6">
 				<!-- logo -->
 				<a class="navbar-brand me-0" href="index.html">
 					<img class="light-mode-item navbar-brand-item h-40px" src="assets/img/logo.svg" alt="logo">
@@ -19,9 +19,9 @@
 			</div>
 
 			<!-- Widget 2 -->
-			<div class="col-6 col-md-5 col-lg-2">
+			<!-- <div class="col-6 col-md-5 col-lg-2">
 				<h6 class="mb-3 mb-sm-4">Company</h6>
-				<!-- Links -->
+			
 				<ul class="nav flex-column gap-1">
 					<li class="nav-item"><a class="nav-link pt-0" href="about-v1.html">About us</a></li>
 					<li class="nav-item"><a class="nav-link" href="contact-us.html">Contact us</a></li>
@@ -30,9 +30,9 @@
 					<li class="nav-item"><a class="nav-link" href="contact-us-v2.html">Become a partner</a></li>
 					<li class="nav-item"><a class="nav-link" href="service-v1.html">Services</a></li>
 				</ul>
-			</div>
+			</div> -->
 			<!-- Widget 4 -->
-			<div class="col-md-6 col-lg-4">
+			<div class="col-md-6 col-lg-6">
 				<h6 class="mb-3 mb-sm-4">Stay connected with us</h6>
 				<!-- Input group -->
 				<form class="input-group bg-body p-2 rounded-3 mb-2">

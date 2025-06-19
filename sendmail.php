@@ -11,7 +11,7 @@ require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
-if(isset($_POST['sendform'])) 
+
 {   
    $fullname = $_POST['fullname'];
    $Email = $_POST['email'];
@@ -27,15 +27,15 @@ if(isset($_POST['sendform']))
        $mail->SMTPAuth = true; //Enable SMTP authentication
 
        $mail->Host = 'smtp.gmail.com'; //Correct SMTP server
-       $mail->Username = 'mehrapankaj383@gmail.com'; //SMTP username
-       $mail->Password = 'wxdy baop gpgn lazx'; //SMTP password
+       $mail->Username = 'market.scriptdone@gmail.com'; //SMTP username
+       $mail->Password = 'usvp rcci zidq nkxz'; //SMTP password
 
        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; //Use STARTTLS for port 587
        $mail->Port = 587; //TCP port to connect to
 
        //Recipients
-       $mail->setFrom('mehrapankaj383@gmail.com', 'scriptdone');
-       $mail->addAddress('mehrapankaj383@gmail.com', 'IT-scriptdone-software');
+       $mail->setFrom('no-replay@scriptdone.com', 'scriptdone');
+       $mail->addAddress('rgritik7fr@gmail.com', 'IT-scriptdone-software');
 
        //Content
        $mail->isHTML(true); //Set email format to HTML
@@ -51,20 +51,17 @@ if(isset($_POST['sendform']))
 
        if($mail->send()){
            $_SESSION['status'] = "Thank you for contacting us - scriptdone";
-           header("Location: ".$_SERVER["HTTP_REFERER"]);
+        //    header("Location: ".$_SERVER["HTTP_REFERER"]);
            exit(0);
        } else {
            $_SESSION['status'] = "Message could not be sent: {$mail->ErrorInfo}";
-           header("Location: ".$_SERVER["HTTP_REFERER"]);
+        //    header("Location: ".$_SERVER["HTTP_REFERER"]);
            exit(0);
        }
    } catch (Exception $e) {
        $_SESSION['status'] = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-       header("Location: ".$_SERVER["HTTP_REFERER"]);
+    //    header("Location: ".$_SERVER["HTTP_REFERER"]);
        exit(0);
    }
-} else {
-   header('Location: index.php');
-   exit(0);
 }
 ?>
