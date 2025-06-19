@@ -96,7 +96,7 @@ Contact form START -->
 			<p class="text-center">Have an idea, need advice, or just want to say hello? We’re all ears.</p>
 
 			<!-- Form START -->
-			<form method="post" class="row form-border-transparent g-3 mt-4" id="contactus" class="contactus">
+			<form  action="sendmail.php" method="post" id="#"  class="row form-border-transparent g-3 mt-4 ">
 				<div class="col-md-6">
 					<label class="form-label">Your name</label>
 					<input type="text" class="form-control" name="fullName">
@@ -110,12 +110,22 @@ Contact form START -->
 				<div class="col-md-6">
 					<label class="form-label">Mobile number</label>
 					<input type="text" class="form-control" name="phone">
-				</div>
-	
+				</div>				
+
 				<div class="col-md-6">
 					<label class="form-label">Subject</label>
 					<input type="text" class="form-control">
 				</div>
+
+					<label for="baget">What your Baget</label>
+					<div class="col-md-12" id="baget" class="baget">
+						<select name="cars" id="cars"  class="cars"> 
+						<option value="volvo">Volvo</option>
+						<option value="saab">Saab</option>
+						<option value="mercedes">Mercedes</option>
+						<option value="audi">Audi</option>
+						</select>
+						</div>
 	
 				<div class="col-12">
 					<label class="form-label">Message</label>
@@ -132,9 +142,8 @@ Contact form START -->
 
 				<div class="col-12 d-sm-flex align-items-center gap-3 mt-4">
 					<!-- Button -->
-					<button type="submit" class="btn btn-primary mb-2 mb-md-0">Send a message</button>
+					<button type="submit"  name="sendform" class="btn btn-primary mb-2 mb-md-0">Send a message</button>
 					<!-- Social links -->
-				
 				</div>
 			</form>
 			<!-- Form END -->

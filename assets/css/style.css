@@ -21488,7 +21488,7 @@ body .bg-primary {
   display: none;
 }
 
-/* Popup Container */
+/* Popup Container */ 
 .popup-container {
   position: fixed;
   top: 50%;
@@ -21612,4 +21612,19 @@ textarea.form-control {
     display: block;
     font-size: 0.875em;
     margin-top: 0.25rem;
+}
+
+@media(max-width:992px){
+.FooterContactAndLinks_footer-links__title__FA6EL{
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+}
+
+.cars{
+      width: 100%;
+    padding: 17px;
+    border-radius: 13px;
+    border: unset;
+  background: white;
 }

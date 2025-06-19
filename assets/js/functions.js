@@ -771,63 +771,63 @@ $(document).ready(function() {
         }
     });
 
-// ContactUS Form Validation
-$('#contactus').on('submit', function(e) {
-    e.preventDefault();
-    const $form = $(this);
-    clearErrors($form);
+// // ContactUS Form Validation
+// $('#contactus').on('submit', function(e) {
+//     e.preventDefault();
+//     const $form = $(this);
+//     clearErrors($form);
     
-    let isValid = true;
-    // Make sure these selectors match exactly with your HTML element IDs
-    const $fullName = $form.find('[name="fullName"]');
-    const $email = $form.find('[name="email"]');
-    const $phone = $form.find('[name="phone"]');
-    const $message = $form.find('[name="message"]');
-    const $privacyCheck = $form.find('[name="privacyCheck"]');
+//     let isValid = true;
+//     // Make sure these selectors match exactly with your HTML element IDs
+//     const $fullName = $form.find('[name="fullName"]');
+//     const $email = $form.find('[name="email"]');
+//     const $phone = $form.find('[name="phone"]');
+//     const $message = $form.find('[name="message"]');
+//     const $privacyCheck = $form.find('[name="privacyCheck"]');
     
-    // Full Name validation
-    if (!$fullName.length || $fullName.val().trim() === '') {
-        showError($fullName, 'Your name is required');
-        isValid = false;
-    }
+//     // Full Name validation
+//     if (!$fullName.length || $fullName.val().trim() === '') {
+//         showError($fullName, 'Your name is required');
+//         isValid = false;
+//     }
     
-    // Email validation
-    if (!$email.length || $email.val().trim() === '') {
-        showError($email, 'Email is required');
-        isValid = false;
-    } else if (!isValidEmail($email.val().trim())) {
-        showError($email, 'Please enter a valid email');
-        isValid = false;
-    }
+//     // Email validation
+//     if (!$email.length || $email.val().trim() === '') {
+//         showError($email, 'Email is required');
+//         isValid = false;
+//     } else if (!isValidEmail($email.val().trim())) {
+//         showError($email, 'Please enter a valid email');
+//         isValid = false;
+//     }
     
-    // Phone validation (optional)
-    if ($phone.length && $phone.val().trim() !== '' && !isValidPhone($phone.val().trim())) {
-        showError($phone, 'Please enter a valid phone number');
-        isValid = false;
-    }
+//     // Phone validation (optional)
+//     if ($phone.length && $phone.val().trim() !== '' && !isValidPhone($phone.val().trim())) {
+//         showError($phone, 'Please enter a valid phone number');
+//         isValid = false;
+//     }
     
-    // Message validation
-    if (!$message.length || $message.val().trim() === '') {
-        showError($message, 'Message is required');
-        isValid = false;
-    }
+//     // Message validation
+//     if (!$message.length || $message.val().trim() === '') {
+//         showError($message, 'Message is required');
+//         isValid = false;
+//     }
     
-    // Privacy checkbox validation
-    if ($privacyCheck.length && !$privacyCheck.is(':checked')) {
-        showError($privacyCheck, 'You must agree to privacy terms');
-        isValid = false;
-    }
+//     // Privacy checkbox validation
+//     if ($privacyCheck.length && !$privacyCheck.is(':checked')) {
+//         showError($privacyCheck, 'You must agree to privacy terms');
+//         isValid = false;
+//     }
     
-    if (isValid) {
-        submitForm($form, 'contactus.php'); // AJAX submission
-    }
-});
+//     if (isValid) {
+//         submitForm($form, 'contactus.php'); // AJAX submission
+//     }
+// });
 
 function submitForm($form, url) {
     const $submitBtn = $form.find('button[type="submit"]');
     const originalText = $submitBtn.text();
     
-    // Disable submit button during submission
+// Disable submit button during submission
     $submitBtn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Sending...');
     
     // Clear previous errors
