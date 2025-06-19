@@ -27,7 +27,7 @@ Hero START -->
 				</ul>
 	
 				<!-- Buttons -->
-				<div class="d-flex justify-content-center flex-wrap gap-3 mt-4 mt-xl-5"><input  type="text"  id="phone-number"  placeholder="Enter Your Number" pattern="\d{10}" maxlength="10"  title="Only numbers are allowed"  oninput="this.value = this.value.replace(/[^0-9]/g, '')">					<a href="#" class="btn btn-white-shadow mb-0" id="myLink"> Get started</a>
+				<!-- <div class="d-flex justify-content-center flex-wrap gap-3 mt-4 mt-xl-5"><input  type="text"  id="phone-number"  placeholder="Enter Your Number" pattern="\d{10}" maxlength="10"  title="Only numbers are allowed"  oninput="this.value = this.value.replace(/[^0-9]/g, '')">					<a href="#" class="btn btn-white-shadow mb-0" id="myLink"> Get started</a> -->
 				</div>
 			</div>
 		</div>

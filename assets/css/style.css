@@ -21628,3 +21628,8 @@ textarea.form-control {
     border: unset;
   background: white;
 }
+
+.footer-link a.text-primary-hover{
+  width: 100%;
+  text-align: center;
+}

@@ -9,59 +9,61 @@ use PHPMailer\PHPMailer\SMTP;
 
 require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
+require 'PHPMailer/src/SMTP.php'; {
+    //    $fullname = $_POST['fullname'];
+    //    $Email = $_POST['email'];
+    //    $mobile = $_POST['mobile'];
+    //    $message = $_POST['message'];
+
+    $mail = new PHPMailer(true);
 
 
-{   
-   $fullname = $_POST['fullname'];
-   $Email = $_POST['email'];
-   $mobile = $_POST['mobile'];
-   $message = $_POST['message'];
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        $msg = "<h3>Hello, you got a new inquiry</h3>";
 
-   $mail = new PHPMailer(true);
+        foreach ($_POST as $key => $value) {
+            $msg .= "<p><strong>" . htmlspecialchars(strtoupper($key)) . ":</strong> " . htmlspecialchars($value) . "</p>";
+        }
+    }
 
-   try {
-       //Server settings
-       // $mail->SMTPDebug = SMTP::DEBUG_SERVER; //Enable verbose debug output
-       $mail->isSMTP(); //Send using SMTP
-       $mail->SMTPAuth = true; //Enable SMTP authentication
 
-       $mail->Host = 'smtp.gmail.com'; //Correct SMTP server
-       $mail->Username = 'market.scriptdone@gmail.com'; //SMTP username
-       $mail->Password = 'usvp rcci zidq nkxz'; //SMTP password
+    try {
 
-       $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; //Use STARTTLS for port 587
-       $mail->Port = 587; //TCP port to connect to
+        //Server settings
+        // $mail->SMTPDebug = SMTP::DEBUG_SERVER; //Enable verbose debug output
+        $mail->isSMTP(); //Send using SMTP
+        $mail->SMTPAuth = true; //Enable SMTP authentication
 
-       //Recipients
-       $mail->setFrom('no-replay@scriptdone.com', 'scriptdone');
-       $mail->addAddress('rgritik7fr@gmail.com', 'IT-scriptdone-software');
+        $mail->Host = 'smtp.gmail.com'; //Correct SMTP server
+        $mail->Username = 'market.scriptdone@gmail.com'; //SMTP username
+        $mail->Password = 'usvp rcci zidq nkxz'; //SMTP password
 
-       //Content
-       $mail->isHTML(true); //Set email format to HTML
-       $mail->Subject = 'Free website for six months';
-       $mail->Body = '
-           <h3>Hello you got a new inquiry</h3>
-           <p><strong>Full Name:</strong> '.$fullname.'</p>
-           <p><strong>Email:</strong> '.$Email.'</p>
-           <p><strong>Phone:</strong> '.$mobile.'</p>
-           <p><strong>Message:</strong> '.$message.'</p>
-       ';
-       $mail->AltBody = "New Inquiry\nFull Name: $fullname\nEmail: $Email\nPhone: $mobile\nMessage: $message";
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; //Use STARTTLS for port 587
+        $mail->Port = 587; //TCP port to connect to
 
-       if($mail->send()){
-           $_SESSION['status'] = "Thank you for contacting us - scriptdone";
+        //Recipients
+        $mail->setFrom('no-replay@scriptdone.com', 'scriptdone');
+        $mail->addAddress('rgritik7fr@gmail.com', 'IT-scriptdone-software');
+
+        //Content
+        $mail->isHTML(true); //Set email format to HTML
+        $mail->Subject = 'Free website for six months';
+        $mail->Body = $msg;
+        //    $mail->AltBody = "New Inquiry\nFull Name: $fullname\nEmail: $Email\nPhone: $mobile\nMessage: $message";
+
+        if ($mail->send()) {
+            $_SESSION['status'] = "Thank you for contacting us - scriptdone";
+            
+            echo json_encode(["code"=> 201 , "msg"=>"Thank you for contacting us. Our team will get in touch with you shortly"]);
+            exit(0);
+        } else {
+            $_SESSION['status'] = "Message could not be sent: {$mail->ErrorInfo}";
+            //    header("Location: ".$_SERVER["HTTP_REFERER"]);
+            exit(0);
+        }
+    } catch (Exception $e) {
+        $_SESSION['status'] = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         //    header("Location: ".$_SERVER["HTTP_REFERER"]);
-           exit(0);
-       } else {
-           $_SESSION['status'] = "Message could not be sent: {$mail->ErrorInfo}";
-        //    header("Location: ".$_SERVER["HTTP_REFERER"]);
-           exit(0);
-       }
-   } catch (Exception $e) {
-       $_SESSION['status'] = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-    //    header("Location: ".$_SERVER["HTTP_REFERER"]);
-       exit(0);
-   }
+        exit(0);
+    }
 }
-?>

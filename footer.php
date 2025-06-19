@@ -3,19 +3,31 @@
 		<!-- Widgets START -->
 		<div class="row g-4">
 			<!-- Widget 1 -->
-			<div class="col-lg-6">
+			<div class="col-lg-12">
 				<!-- logo -->
 				<a class="navbar-brand me-0" href="index.html">
-					<img class="light-mode-item navbar-brand-item h-40px" src="assets/img/logo.svg" alt="logo">
-					<img class="dark-mode-item navbar-brand-item h-40px" src="assets/img/logo.svg" alt="logo">
+					<img class="light-mode-item d-block m-auto h-40px" src="assets/img/logo.svg" alt="logo"  style="display: block !important; margin:auto;">
+					<!-- <img class="dark-mode-item d-block m-auto h-40px" src="assets/img/logo.svg" alt="logo"  style="display: block !important; margin:auto;"> -->
 				</a>
 
-				<p class="my-3 my-lg-4">Scriptdone Commerce provides complete tech support development, hosting, security, and maintenance for smooth, hassle-free online business operations.</p>
+				<p class="my-3 my-lg-4 text-center">Scriptdone Commerce provides complete tech support development, hosting, security, and maintenance for smooth, hassle-free online business operations.</p>
 				<!-- List -->
-				<ul class="list-group list-group-borderless">
+			<div class="row footer-link">
+				<div class="col-6">
+						<ul class="list-group list-group-borderless">
 					<li class="d-flex mb-2"><a href="#" class="text-primary-hover"><i class="me-2 text-primary bi bi-headset"></i> +91 9868382824 </a></li>
 					<li class="d-flex mb-2"><a href="#" class="text-primary-hover"><i class="me-2 text-primary bi bi-envelope"></i> support@scriptdone.com</a></li>
 				</ul>
+
+				</div>
+
+				<div class="col-6">
+					<ul class="list-group list-group-borderless">
+					<li class="d-flex mb-2"><a href="#" class="text-primary-hover"><i class="me-2 text-primary bi bi-headset"></i> +91 9868382824 </a></li>
+					<li class="d-flex mb-2"><a href="#" class="text-primary-hover"><i class="me-2 text-primary bi bi-envelope"></i> support@scriptdone.com</a></li>
+				</ul>
+				</div>
+			</div>
 			</div>
 
 			<!-- Widget 2 -->
@@ -32,25 +44,25 @@
 				</ul>
 			</div> -->
 			<!-- Widget 4 -->
-			<div class="col-md-6 col-lg-6">
-				<h6 class="mb-3 mb-sm-4">Stay connected with us</h6>
-				<!-- Input group -->
-				<form class="input-group bg-body p-2 rounded-3 mb-2">
-					<input class="form-control form-control-sm rounded border-0 me-3" type="email" placeholder="Enter your email">
-					<button type="button" class="btn btn-sm btn-primary-grad px-3 rounded-2 mb-0"><i class="bi bi-send-fill"></i></button>
-				</form>
-				<p class="small mb-0">✌️ No Spam — We Promise!</p>
+				<!-- <div class="col-md-6 col-lg-6">
+					<h6 class="mb-3 mb-sm-4">Stay connected with us</h6>
+					
+					<form class="input-group bg-body p-2 rounded-3 mb-2">
+						<input class="form-control form-control-sm rounded border-0 me-3" type="email" placeholder="Enter your email">
+						<button type="button" class="btn btn-sm btn-primary-grad px-3 rounded-2 mb-0"><i class="bi bi-send-fill"></i></button>
+					</form>
+					<p class="small mb-0">✌️ No Spam — We Promise!</p>
 
-				<!-- Social links -->
-				<ul class="list-inline align-items-center mb-0 mt-3 mt-sm-4">
-					<li class="list-inline-item heading-color fw-semibold">Follow on:</li>
-					<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-facebook" href="#"><i class="bi bi-facebook lh-base"></i></a> </li>
-					<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-instagram" href="https://www.instagram.com/scriptdone_/"><i class="bi bi-instagram lh-base"></i></a> </li>
-					<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-twitter-x" href="#"><i class="bi bi-twitter-x lh-base"></i></a> </li>
-					<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-linkedin" href="https://www.linkedin.com/company/scriptdone/posts/?feedView=all"><i class="bi bi-linkedin lh-base"></i></a> </li>
-				</ul>
 
-			</div>
+					<ul class="list-inline align-items-center mb-0 mt-3 mt-sm-4">
+						<li class="list-inline-item heading-color fw-semibold">Follow on:</li>
+						<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-facebook" href="#"><i class="bi bi-facebook lh-base"></i></a> </li>
+						<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-instagram" href="https://www.instagram.com/scriptdone_/"><i class="bi bi-instagram lh-base"></i></a> </li>
+						<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-twitter-x" href="#"><i class="bi bi-twitter-x lh-base"></i></a> </li>
+						<li class="list-inline-item"> <a class="btn btn-xs btn-icon bg-linkedin" href="https://www.linkedin.com/company/scriptdone/posts/?feedView=all"><i class="bi bi-linkedin lh-base"></i></a> </li>
+					</ul>
+
+				</div> -->
 		</div>
 		<!-- Widgets END -->
 
@@ -71,7 +83,7 @@ Footer END -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 
 <!-- In your HTML head or before closing </body> -->
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://unpkg.com/typewriter-effect@2.18.0/dist/core.js"></script>
