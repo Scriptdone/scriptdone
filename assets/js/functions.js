@@ -737,6 +737,11 @@ $(document).ready(function () {
     $form.find(".is-invalid").removeClass("is-invalid");
   }
 
+  // function isValidmessage(message){
+  //     const messageval= input.val()==10{
+
+  //     }
+  // }
   // Contact Form Validation
   $("#contactForm").on("submit", function (e) {
     e.preventDefault();
@@ -791,7 +796,7 @@ $(document).ready(function () {
     const $fullName = $form.find('[name="fullName"]');
     const $email = $form.find('[name="email"]');
     const $phone = $form.find('[name="phone"]');
-    const $message = $form.find('[name="message"], textarea#message');
+    // const $message = $form.find('[name="message"], textarea#message');
     const privacy = $('[name="privacyCheck"]');
     // Full Name validation
     if ($fullName.val().trim() === "") {
@@ -803,7 +808,7 @@ $(document).ready(function () {
     if ($email.val().trim() === "") {
       showError($email, "Email is required");
       isValid = false;
-    } else if (!isValidEmail($email.val().trim())) {
+    } else if (!isValidEmail($email.val().trim())){
       showError($email, "Please enter a valid email");
       isValid = false;
     }
@@ -813,6 +818,11 @@ $(document).ready(function () {
       showError($phone, "Please enter a valid phone number");
       isValid = false;
     }
+
+      // if($message.val().trim() ==="" && !($message.val() >= 10)){  
+      //     showError($message, "Min 10 words ");
+      //       invalid = false
+      // }
 
     if (!privacy.is(":checked")) {
       showError(privacy, "Please enter a valid phone number");
