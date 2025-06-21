@@ -13,7 +13,7 @@
 				<p class="my-3 my-lg-4 text-center">Scriptdone Commerce provides complete tech support development, hosting, security, and maintenance for smooth, hassle-free online business operations.</p>
 				<!-- List -->
 			<div class="row footer-link">
-				<div class="col-6">
+				<div class="col-12">
 						<ul class="list-group list-group-borderless">
 					<li class="d-flex mb-2"><a href="#" class="text-primary-hover"><i class="me-2 text-primary bi bi-headset"></i> +91 9868382824 </a></li>
 					<li class="d-flex mb-2"><a href="#" class="text-primary-hover"><i class="me-2 text-primary bi bi-envelope"></i> support@scriptdone.com</a></li>
@@ -21,12 +21,12 @@
 
 				</div>
 
-				<div class="col-6">
+				<!-- <div class="col-6">
 					<ul class="list-group list-group-borderless">
 					<li class="d-flex mb-2"><a href="#" class="text-primary-hover"><i class="me-2 text-primary bi bi-headset"></i> +91 9868382824 </a></li>
 					<li class="d-flex mb-2"><a href="#" class="text-primary-hover"><i class="me-2 text-primary bi bi-envelope"></i> support@scriptdone.com</a></li>
 				</ul>
-				</div>
+				</div> -->
 			</div>
 			</div>
 

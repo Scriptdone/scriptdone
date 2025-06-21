@@ -796,7 +796,6 @@ $(document).ready(function () {
     const $fullName = $form.find('[name="fullName"]');
     const $email = $form.find('[name="email"]');
     const $phone = $form.find('[name="phone"]');
-    // const $message = $form.find('[name="message"], textarea#message');
     const privacy = $('[name="privacyCheck"]');
     // Full Name validation
     if ($fullName.val().trim() === "") {
@@ -819,10 +818,6 @@ $(document).ready(function () {
       isValid = false;
     }
 
-      // if($message.val().trim() ==="" && !($message.val() >= 10)){  
-      //     showError($message, "Min 10 words ");
-      //       invalid = false
-      // }
 
     if (!privacy.is(":checked")) {
       showError(privacy, "Please enter a valid phone number");

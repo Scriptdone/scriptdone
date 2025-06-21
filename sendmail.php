@@ -43,7 +43,7 @@ require 'PHPMailer/src/SMTP.php'; {
 
         //Recipients
         $mail->setFrom('no-replay@scriptdone.com', 'scriptdone');
-        $mail->addAddress('rgritik7fr@gmail.com', 'IT-scriptdone-software');
+        $mail->addAddress('market.scriptdone@gmail.com', 'IT-scriptdone-software');
 
         //Content
         $mail->isHTML(true); //Set email format to HTML
