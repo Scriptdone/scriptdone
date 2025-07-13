@@ -4567,7 +4567,7 @@ header .nav-right .right-sidebar-button {
   cursor: pointer;
 }
 header .nav-right .right-sidebar-button svg {
-  fill: var(--title-color);
+  fill: var(--theme-color);
 }
 @keyframes qode-draw {
   0%,
@@ -5343,7 +5343,7 @@ header .main-menu > ul li.menu-item-has-children > i {
   position: absolute;
   width: 95px;
   height: 95px;
-  background: #27548B
+  background: #27548B;
   opacity: 0;
   border-radius: 100%;
   right: -15px;
@@ -8228,7 +8228,7 @@ header .main-menu > ul li.menu-item-has-children > i {
   background: linear-gradient(100deg, #17855c 15.25%, #10c581 55.13%);
   border-radius: 10px;
   position: relative;
-  margin-bottom: -150px;
+  margin-bottom: -87px;
   padding: 75px 82px 59px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -11575,10 +11575,13 @@ header .main-menu > ul li.menu-item-has-children > i {
     padding-right: 15px;
   }
 }
+
 .footer-section-two .footer-menu-wrap {
-  padding: 100px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 100px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 151px;
 }
+
 .footer-section-two .footer-menu-wrap .logo-and-social-media-area .footer-logo {
   padding-bottom: 20px;
 }
@@ -17601,4 +17604,7 @@ header .main-menu > ul li.menu-item-has-children > i {
 
 header{
     background-image: url('/assets/image/banner-img/breadcrumb-img.png');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
 }

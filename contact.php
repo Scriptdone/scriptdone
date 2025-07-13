@@ -40,8 +40,8 @@
               <h2>Contact Us For</h2>
               <h3>Your Personal Quieries</h3>
               <p>
-                We collaborate closely with our clients to grasp their goals,
-                target demographics and specific needs.
+              We team up with our clients to learn about their plans, 
+              who they want to reach, and what they’re looking for.
               </p>
             </div>
             <div class="contact-info">
@@ -62,8 +62,8 @@
                   </div>
                   <div class="content">
                     <span>Call Us On:</span>
-                    <h6><a href="tel:+(954)393-9100">(954) 393-9100</a></h6>
-                    <h6><a href="tel:+(954)393-9100">(954) 393-9100</a></h6>
+                    <h6> <a href="tel:+(91)7303942683">+917303942683</a></h6>
+                    <!-- <h6><a href="tel:+(954)393-9100">(954) 393-9100</a></h6> -->
                   </div>
                 </li>
                 <li class="single-contact">
@@ -77,10 +77,7 @@
                   <div class="content">
                     <span>Drop A Message:</span>
                     <h6>
-                      <a href="https://demo.qzency.com/cdn-cgi/l/email-protection#f29b9c949db2978a939f829e97dc919d9f"><span class="__cf_email__" data-cfemail="4d24232b220d28352c203d2128632e2220">[email&#160;protected]</span></a>
-                    </h6>
-                    <h6>
-                      <a href="https://demo.qzency.com/cdn-cgi/l/email-protection#f891969e97b89d80999588949dd69b9795"><span class="__cf_email__" data-cfemail="f49d9a929bb4918c9599849891da979b99">[email&#160;protected]</span></a>
+                      <a href="mailto:support@scripdone.com"><span class="__cf_email__" data-cfemail="4d24232b220d28352c203d2128632e2220">support@scripdone.com</span></a>
                     </h6>
                   </div>
                 </li>
@@ -95,7 +92,8 @@
                   <div class="content">
                     <span>Our location:</span>
                     <h6>
-                      <a href="#">5128 Willow Creek Lane, Brooklyn, New York</a>
+                      <a href="#"> I5/t36, Panjabi basti, Block B, Baljit Nagar, Sanjay park, New Delhi, Delhi, 110008
+</a>
                     </h6>
                   </div>
                 </li>
@@ -110,34 +108,53 @@
               <h3>Get in touch with us</h3>
             </div>
             <div class="inquiry-form">
-              <form>
+              <form id ="contact-form" action="./simple.php" method="post">
                 <div class="row">
                   <div class="col-md-12">
                     <div class="form-inner mb-35">
                       <label>Full Name *</label>
-                      <input type="text" />
+                      <input type="text" name="name" />
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-inner mb-35">
                       <label>Email*</label>
-                      <input type="email" />
+                      <input type="email" name="email"/>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-inner mb-35">
                       <label>Phone *</label>
-                      <input type="text" />
+                      <input type="text" name="phone"/>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-inner">
                       <label>Interested in</label>
-                      <select class="nice-select">
+                      <select class="nice-select" name="product">
+                        <option>Ecommerce development</option>
                         <option>Product design</option>
                         <option>Web Development</option>
                         <option>UI/UX Design</option>
                       </select>
+                    </div>
+                  </div>
+                      <div class="col-md-12">
+                    <div class="form-inner">
+                      <label>what about your baget</label>
+                     <select name="budget" class="nice-select">
+							<option value="0-10000">₹0 to ₹10,000</option>
+							<option value="10000-20000">₹10,000 to ₹20,000</option>
+							<option value="20000-30000">₹20,000 to ₹30,000</option>
+							<option value="30000-40000">₹30,000 to ₹40,000</option>
+							<option value="40000-50000">₹40,000 to ₹50,000</option>
+							<option value="50000-60000">₹50,000 to ₹60,000</option>
+							<option value="60000-70000">₹60,000 to ₹70,000</option>
+							<option value="70000-80000">₹70,000 to ₹80,000</option>
+							<option value="80000-90000">₹80,000 to ₹90,000</option>
+							<option value="90000-100000">₹90,000 to ₹1,00,000</option>
+
+						</select>
                     </div>
                   </div>
                   <div class="col-md-12">
@@ -148,9 +165,11 @@
                   </div>
                 </div>
                 <div class="form-inner">
-                  <a class="primary-btn-three" data-text="Submit" href="error.html">
+                  <!-- <a class="primary-btn-three" type="submit" name="contact-form" data-text="Submit" href="error.html">
                     <span>Submit</span>
-                  </a>
+                  </a> -->
+
+                  <button type="submit" class="primary-btn-three">Submit</button>
                 </div>
               </form>
             </div>
@@ -162,10 +181,35 @@
   <!-- Home4 Contact Section End -->
   <!-- Contact Map Section Start -->
   <div class="contact-map-section">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5647631857846!2d90.36311167605992!3d23.83407118555764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c14c8682a473%3A0xa6c74743d52adb88!2sEgens%20Lab!5e0!3m2!1sen!2sbd!4v1700138349574!5m2!1sen!2sbd"
-      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0130572959897!2d77.16135690000002!3d28.6593277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0374995034e9%3A0x7543ad08f04f2b52!2sScriptdone%20Software!5e0!3m2!1sen!2sin!4v1752411322517!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </div>
   <!-- Contact Map Section End -->
   <!-- footer section start -->
+   <script defer>
+      document.addEventListener('DOMContentLoaded', function () {
+     $('#contact-form').on('submit', function (e) {
+          e.preventDefault();
+
+        
+          
+
+          const $form = $(this); // reference to the submitted form
+          const action = $form.attr('action'); // get form action
+          const method = $form.attr('method'); // get form method
+    
+
+          $.ajax({
+            type: method,         
+            url: action,         
+            data: $form.serialize(), 
+            success: function (data) {
+             console.log(data);
+             
+            }
+          });
+        });
+
+ 
+});
+
+   </script>
   <?php require('./footer.php')?>

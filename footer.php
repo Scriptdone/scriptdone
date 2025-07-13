@@ -11,9 +11,9 @@
               </div>
               <div class="footer-content">
                 <p>
-                  We are a digital branding agency dedicated to helping
-                  businesses thrive. With a proven trackrecord, we’ve
-                  successfully partnered.
+                 Scriptdone Commerce provides complete tech support development,
+                hosting, security, and maintenance for smooth, 
+                hassle-free online business operations.
                 </p>
               </div>
              <ul class="footer-social-list">
@@ -125,12 +125,12 @@
     <div class="footer-bottom-wrap">
       <div class="container">
         <div class="footer-bottom">
-          <div class="copy-write-area">
+          <!-- <div class="copy-write-area">
             <p>
               Copyright © 2025, Designed & Developed by
               <a href="https://themeforest.net/user/qzency/portfolio"><span>Qzency</span></a>
             </p>
-          </div>
+          </div> -->
           <div class="footer-bottom-right">
             <ul>
               <li><a href="#">Terms & Conditions</a></li>
@@ -147,6 +147,8 @@
 
   <!--  Main jQuery  -->
   <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js"></script>
+   <!-- jquery -->
+ <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <!-- Popper and Bootstrap JS -->
   <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
