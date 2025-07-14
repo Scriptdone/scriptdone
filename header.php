@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
   <link rel="stylesheet" href="assets/css/animate.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  
   <title>Rextfy Html Template</title>
   <link rel="icon" href="assets/image/logo/rextfy-icon-white.png">
 </head>

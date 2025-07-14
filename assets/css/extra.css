@@ -1,0 +1,13 @@
+.ecommerce-page .banner-section .banner-content h1 {
+    font-size: 42px;
+    line-height: 57px;
+
+}
+
+.ecommerce-page .contact-section{
+    background: unset;
+}
+
+body{
+    display: none important;
+}
