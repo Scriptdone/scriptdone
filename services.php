@@ -16,7 +16,7 @@
             <div class="breadcrumb-list">
               <ul>
                 <li>
-                  <a href="https://demo.qzency.com/">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li><span>/</span></li>
                 <li>
@@ -57,7 +57,7 @@
               </div>
               <div class="icon">
                 <a href="services-details.html">
-                  <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="40" height="41" viewBox="0 0 40 41" fill="none" >
                     <path
                       d="M17.8667 10.3415L29.3928 10.5635L29.4552 10.5622C29.6522 10.5661 29.8299 10.6433 29.963 10.7675L30.0292 10.837C30.1468 10.976 30.2155 11.1575 30.21 11.3547L30.2044 11.4073L29.8849 22.9583C29.873 23.3857 29.5174 23.7254 29.0906 23.7172C28.6638 23.7089 28.3274 23.3557 28.3393 22.9284L28.6117 13.0643L10.7977 30.0854C10.4876 30.3817 9.99825 30.3722 9.70482 30.0642C9.4114 29.7562 9.42497 29.2662 9.73515 28.9699L27.4172 12.0749L17.8238 11.8891C17.397 11.8808 17.0606 11.5277 17.0724 11.1003C17.0843 10.6729 17.4399 10.3332 17.8667 10.3415ZM29.4361 11.2112L29.1121 22.9433L29.4355 11.3381L29.4335 11.3359L29.3715 11.3373L29.3054 11.3361L29.4361 11.2112Z" />
                   </svg>
@@ -77,7 +77,7 @@
               </div>
               <div class="icon">
                 <a href="services-details.html">
-                  <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="40" height="41" viewBox="0 0 40 41" fill="none" >
                     <path
                       d="M17.8667 10.3415L29.3928 10.5635L29.4552 10.5622C29.6522 10.5661 29.8299 10.6433 29.963 10.7675L30.0292 10.837C30.1468 10.976 30.2155 11.1575 30.21 11.3547L30.2044 11.4073L29.8849 22.9583C29.873 23.3857 29.5174 23.7254 29.0906 23.7172C28.6638 23.7089 28.3274 23.3557 28.3393 22.9284L28.6117 13.0643L10.7977 30.0854C10.4876 30.3817 9.99825 30.3722 9.70482 30.0642C9.4114 29.7562 9.42497 29.2662 9.73515 28.9699L27.4172 12.0749L17.8238 11.8891C17.397 11.8808 17.0606 11.5277 17.0724 11.1003C17.0843 10.6729 17.4399 10.3332 17.8667 10.3415ZM29.4361 11.2112L29.1121 22.9433L29.4355 11.3381L29.4335 11.3359L29.3715 11.3373L29.3054 11.3361L29.4361 11.2112Z" />
                   </svg>
@@ -97,7 +97,7 @@
               </div>
               <div class="icon">
                 <a href="services-details.html">
-                  <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="40" height="41" viewBox="0 0 40 41" fill="none" >
                     <path
                       d="M17.8667 10.3415L29.3928 10.5635L29.4552 10.5622C29.6522 10.5661 29.8299 10.6433 29.963 10.7675L30.0292 10.837C30.1468 10.976 30.2155 11.1575 30.21 11.3547L30.2044 11.4073L29.8849 22.9583C29.873 23.3857 29.5174 23.7254 29.0906 23.7172C28.6638 23.7089 28.3274 23.3557 28.3393 22.9284L28.6117 13.0643L10.7977 30.0854C10.4876 30.3817 9.99825 30.3722 9.70482 30.0642C9.4114 29.7562 9.42497 29.2662 9.73515 28.9699L27.4172 12.0749L17.8238 11.8891C17.397 11.8808 17.0606 11.5277 17.0724 11.1003C17.0843 10.6729 17.4399 10.3332 17.8667 10.3415ZM29.4361 11.2112L29.1121 22.9433L29.4355 11.3381L29.4335 11.3359L29.3715 11.3373L29.3054 11.3361L29.4361 11.2112Z" />
                   </svg>
@@ -119,7 +119,7 @@
               </div>
               <div class="icon">
                 <a href="services-details.html">
-                  <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="40" height="41" viewBox="0 0 40 41" fill="none" >
                     <path
                       d="M17.8667 10.3415L29.3928 10.5635L29.4552 10.5622C29.6522 10.5661 29.8299 10.6433 29.963 10.7675L30.0292 10.837C30.1468 10.976 30.2155 11.1575 30.21 11.3547L30.2044 11.4073L29.8849 22.9583C29.873 23.3857 29.5174 23.7254 29.0906 23.7172C28.6638 23.7089 28.3274 23.3557 28.3393 22.9284L28.6117 13.0643L10.7977 30.0854C10.4876 30.3817 9.99825 30.3722 9.70482 30.0642C9.4114 29.7562 9.42497 29.2662 9.73515 28.9699L27.4172 12.0749L17.8238 11.8891C17.397 11.8808 17.0606 11.5277 17.0724 11.1003C17.0843 10.6729 17.4399 10.3332 17.8667 10.3415ZM29.4361 11.2112L29.1121 22.9433L29.4355 11.3381L29.4335 11.3359L29.3715 11.3373L29.3054 11.3361L29.4361 11.2112Z" />
                   </svg>
@@ -139,7 +139,7 @@
               </div>
               <div class="icon">
                 <a href="services-details.html">
-                  <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="40" height="41" viewBox="0 0 40 41" fill="none" >
                     <path
                       d="M17.8667 10.3415L29.3928 10.5635L29.4552 10.5622C29.6522 10.5661 29.8299 10.6433 29.963 10.7675L30.0292 10.837C30.1468 10.976 30.2155 11.1575 30.21 11.3547L30.2044 11.4073L29.8849 22.9583C29.873 23.3857 29.5174 23.7254 29.0906 23.7172C28.6638 23.7089 28.3274 23.3557 28.3393 22.9284L28.6117 13.0643L10.7977 30.0854C10.4876 30.3817 9.99825 30.3722 9.70482 30.0642C9.4114 29.7562 9.42497 29.2662 9.73515 28.9699L27.4172 12.0749L17.8238 11.8891C17.397 11.8808 17.0606 11.5277 17.0724 11.1003C17.0843 10.6729 17.4399 10.3332 17.8667 10.3415ZM29.4361 11.2112L29.1121 22.9433L29.4355 11.3381L29.4335 11.3359L29.3715 11.3373L29.3054 11.3361L29.4361 11.2112Z" />
                   </svg>
@@ -161,7 +161,7 @@
               </div>
               <div class="icon">
                 <a href="services-details.html">
-                  <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="40" height="41" viewBox="0 0 40 41" fill="none" >
                     <path
                       d="M17.8667 10.3415L29.3928 10.5635L29.4552 10.5622C29.6522 10.5661 29.8299 10.6433 29.963 10.7675L30.0292 10.837C30.1468 10.976 30.2155 11.1575 30.21 11.3547L30.2044 11.4073L29.8849 22.9583C29.873 23.3857 29.5174 23.7254 29.0906 23.7172C28.6638 23.7089 28.3274 23.3557 28.3393 22.9284L28.6117 13.0643L10.7977 30.0854C10.4876 30.3817 9.99825 30.3722 9.70482 30.0642C9.4114 29.7562 9.42497 29.2662 9.73515 28.9699L27.4172 12.0749L17.8238 11.8891C17.397 11.8808 17.0606 11.5277 17.0724 11.1003C17.0843 10.6729 17.4399 10.3332 17.8667 10.3415ZM29.4361 11.2112L29.1121 22.9433L29.4355 11.3381L29.4335 11.3359L29.3715 11.3373L29.3054 11.3361L29.4361 11.2112Z" />
                   </svg>
@@ -226,7 +226,7 @@
                         <ul>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -235,7 +235,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -244,7 +244,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -253,7 +253,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -262,7 +262,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -271,7 +271,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -280,7 +280,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -313,7 +313,7 @@
                         <ul>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -322,7 +322,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -331,7 +331,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -340,7 +340,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -349,7 +349,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -358,7 +358,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -367,7 +367,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -397,7 +397,7 @@
                         <ul>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -406,7 +406,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -415,7 +415,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -424,7 +424,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -433,7 +433,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -442,7 +442,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -451,7 +451,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -485,7 +485,7 @@
                         <ul>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -494,7 +494,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -503,7 +503,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -512,7 +512,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -521,7 +521,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -530,7 +530,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -539,7 +539,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -572,7 +572,7 @@
                         <ul>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -581,7 +581,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -590,7 +590,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -599,7 +599,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -608,7 +608,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -617,7 +617,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -626,7 +626,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -656,7 +656,7 @@
                         <ul>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -665,7 +665,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -674,7 +674,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -683,7 +683,7 @@
                           </li>
                           <li>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M2 9.38273L3.414 7.45455L6.004 10.985L12.593 2L14.007 3.92818L6.003 14.8414L2 9.38273Z"
                                 fill="#37A437" />
@@ -692,7 +692,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -701,7 +701,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -710,7 +710,7 @@
                           </li>
                           <li>
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
+                              >
                               <path
                                 d="M8.62109 9.65625L9.82812 8.44922L6.20703 4.82812L9.82812 1.20703L8.62109 0L5 3.62109L1.37891 0L0.171875 1.20703L3.79297 4.82812L0.171875 8.44922L1.37891 9.65625L5 6.03516L8.62109 9.65625Z"
                                 fill="#FE5E3A" />
@@ -743,9 +743,7 @@
             <span class="sub-title">FAQ</span>
             <h2>frequently asked questions</h2>
             <p>
-              Welcome to our FAQS section, where we address common queries and
-              provide helpful solutions to ensure you get the most out of our
-              CRM software.
+            Here you’ll find quick answers to common questions about our services, including software development, eCommerce, digital marketing, and UI/UX design.
             </p>
           </div>
         </div>
@@ -759,17 +757,13 @@
                   <h5 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      01. What services do digital agencies provide?
+                      01. What services does Scriptdone Software offer?
                     </button>
                   </h5>
                   <div id="flush-collapseOne" class="accordion-collapse collapse show"
                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                      A digital agency develop online strategy that helps
-                      business effectively reach their target audience.
-                      Service typically includes web design, social media
-                      management and digital marketing campaign enabling
-                      companies to build strong online presence.
+                      We provide end-to-end technology solutions including custom software development, eCommerce development, UI/UX design, and digital marketing to help businesses grow and scale
                     </div>
                   </div>
                 </div>
@@ -777,17 +771,13 @@
                   <h5 class="accordion-header" id="flush-headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      02. How long does it take for a project to be designed?
+                      02.  What types of software do you develop?
                     </button>
                   </h5>
                   <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                      A digital agency develop online strategy that helps
-                      business effectively reach their target audience.
-                      Service typically includes web design, social media
-                      management and digital marketing campaign enabling
-                      companies to build strong online presence.
+                      We build web apps, mobile apps (iOS/Android), SaaS platforms, CRMs, HRMS systems, and custom enterprise solutions tailored to your business goals.
                     </div>
                   </div>
                 </div>
@@ -795,17 +785,13 @@
                   <h5 class="accordion-header" id="flush-headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      03. Is VisionX suitable for my business?
+                      03. What kind of eCommerce development services do you offer?
                     </button>
                   </h5>
                   <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                      A digital agency develop online strategy that helps
-                      business effectively reach their target audience.
-                      Service typically includes web design, social media
-                      management and digital marketing campaign enabling
-                      companies to build strong online presence.
+                    We build custom eCommerce websites tailored to your business needs, complete with secure payment integration, shipping features, and mobile-friendly design for a smooth shopping experience across all devices.
                     </div>
                   </div>
                 </div>
@@ -813,17 +799,13 @@
                   <h5 class="accordion-header" id="flush-headingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                      04. How can i upgrade my subscription?
+                      04. What is included in your UI/UX design services?
                     </button>
                   </h5>
                   <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                      A digital agency develop online strategy that helps
-                      business effectively reach their target audience.
-                      Service typically includes web design, social media
-                      management and digital marketing campaign enabling
-                      companies to build strong online presence.
+                We create user-centric designs including wireframes, prototypes, and final UI layouts that ensure seamless experiences across devices.
                     </div>
                   </div>
                 </div>
@@ -831,17 +813,13 @@
                   <h5 class="accordion-header" id="flush-headingFive">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                      05. How can i contact with a support agent?
+                      05. Do you offer complete project support from start to finish?
                     </button>
                   </h5>
                   <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                      A digital agency develop online strategy that helps
-                      business effectively reach their target audience.
-                      Service typically includes web design, social media
-                      management and digital marketing campaign enabling
-                      companies to build strong online presence.
+                    Yes, we offer full-cycle development — from ideation and design to deployment and ongoing support.
                     </div>
                   </div>
                 </div>
