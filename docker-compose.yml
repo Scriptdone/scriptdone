@@ -12,7 +12,7 @@ services:
     image: nginx:latest
     container_name: scriptdone_soft_nginx
     ports:
-      - "8081:80"
+      - "8082:80"
 
     restart: unless-stopped
     volumes:
