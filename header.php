@@ -14,11 +14,12 @@
   <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
   <link rel="stylesheet" href="assets/css/animate.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  
+  <link rel="stylesheet" href="assets/css/landing.css ">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
   <title>Rextfy Html Template</title>
   <link rel="icon" href="assets/image/logo/rextfy-icon-white.png">
 </head>
-
 <body>
   <!-- scroll top -->
   <div class="circle-container">
@@ -26,6 +27,7 @@
       <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
     </svg>
   </div>
+
   <div class="right-sidebar-menu">
     <div class="sidebar-logo-area d-flex justify-content-between align-items-center">
       <div class="sidebar-logo-wrap">
@@ -171,6 +173,8 @@
       </div>
     </div>
   </div>
+
+  
   <!-- sidebar menu end -->
   <!-- header section start -->
   <header class="header-area style-2">

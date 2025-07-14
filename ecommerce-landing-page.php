@@ -104,10 +104,10 @@
     <!-- home1 about section start -->
     <div class="about-section pb-120 pt-120" id="scroll-section">
         <div class="container">
-            <div class="row card-p wow animate fadeInLeft g-4">
+            <div class="row card-p g-4">
                 <div class="text-center">
                     <h3 class="landing-seconding-headding">
-                        Our <span>Expert</span> Web Designers and Developers <br class="br-block"> Specialize In <span>Industry-Leading</span> Platforms
+                        Our Expert Web Designers and Developers <br> Specialize In Industry-Leading Platforms
                     </h3>
                     <p>Not sure which platform to choose? Our team can help!</p>
                 </div>
@@ -219,10 +219,8 @@
         </div>
     </div>
     <!-- home1 about section end -->
-
-
     <!-- home1- service section start -->
-    <!-- <div class="service-section pb-120 pt-120">
+    <div class="service-section pb-120 pt-120">
         <div class="container">
             <div class="row align-items-end mb-55">
                 <div class="col-lg-6 wow animate fadeInLeft" data-wow-delay="400ms">
@@ -388,11 +386,10 @@
                 </div>
             </div>
         </div>
-    </div> -->
-
+    </div>
     <!-- home1- service section end -->
     <!-- showcase section start -->
-    <!-- <div class="latest-project-section pt-120 pb-120">
+    <div class="latest-project-section pt-120 pb-120">
         <div class="container">
             <div class="row align-items-end mb-60">
                 <div class="col-lg-6">
@@ -533,9 +530,8 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- showcase section end -->
-
     <!-- home1 Testimonial section start -->
     <div class="news-and-testimonial">
         <div class="container-fluid container-rextfy">
@@ -782,9 +778,8 @@
         </div>
     </div>
     <!-- home1 Testimonial section end -->
-     
     <!-- Our Team section start -->
-    <!-- <div class="team-section pt-120 pb-120">
+    <div class="team-section pt-120 pb-120">
         <div class="container">
             <div class="row mb-60">
                 <div class="col-lg-12 d-flex align-items-center justify-content-center text-center wow animate fadeInUp"
@@ -1180,7 +1175,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- Our Team section end -->
     <!-- home1 faq section start -->
     <div class="faq-section pt-120 pb-120">
@@ -1314,7 +1309,7 @@
     </div>
     <!-- home1 faq section end -->
     <!-- our latest card section start-->
-    <!-- <div class="blog-section pb-120 pt-120">
+    <div class="blog-section pb-120 pt-120">
         <div class="container">
             <div class="row align-items-end mb-60">
                 <div class="col-lg-6 wow animate fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
@@ -1469,7 +1464,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- our latest card section end -->
     <div class="cta-section">
         <div class="container">
