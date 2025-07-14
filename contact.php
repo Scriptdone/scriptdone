@@ -113,19 +113,20 @@
                   <div class="col-md-12">
                     <div class="form-inner mb-35">
                       <label>Full Name *</label>
-                      <input type="text" name="name" />
+                      <input type="text" name="name"  id="nameInput" />
+                
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-inner mb-35">
                       <label>Email*</label>
-                      <input type="email" name="email"/>
+                      <input type="email" name="email" id="emailInput"/>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-inner mb-35">
                       <label>Phone *</label>
-                      <input type="text" name="phone"/>
+                      <input type="text" name="phone" id="telInput"/>
                     </div>
                   </div>
                   <div class="col-md-12">
@@ -160,7 +161,7 @@
                   <div class="col-md-12">
                     <div class="form-inner mb-40">
                       <label>Message *</label>
-                      <textarea></textarea>
+                      <textarea id="messageInput"></textarea>
                     </div>
                   </div>
                 </div>
@@ -184,32 +185,90 @@
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0130572959897!2d77.16135690000002!3d28.6593277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0374995034e9%3A0x7543ad08f04f2b52!2sScriptdone%20Software!5e0!3m2!1sen!2sin!4v1752411322517!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </div>
   <!-- Contact Map Section End -->
   <!-- footer section start -->
-   <script defer>
-      document.addEventListener('DOMContentLoaded', function () {
-     $('#contact-form').on('submit', function (e) {
-          e.preventDefault();
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-        
-          
+<script defer>
+  document.addEventListener('DOMContentLoaded', function () {
+    $('#contact-form').on('submit', function (e) {
+      e.preventDefault();
+      const $form = $(this);
 
-          const $form = $(this); // reference to the submitted form
-          const action = $form.attr('action'); // get form action
-          const method = $form.attr('method'); // get form method
-    
+      // Run validation
+      const isValid = validateForm();
 
-          $.ajax({
-            type: method,         
-            url: action,         
-            data: $form.serialize(), 
-            success: function (data) {
-             console.log(data);
-             
-            }
-          });
+      if (isValid) {
+        const action = $form.attr('action');
+        const method = $form.attr('method');
+
+        $.ajax({
+          type: method,
+          url: action,
+          data: $form.serialize(),
+          success: function (response) {
+            Swal.fire({
+              icon: 'success',
+              title: 'Form Submitted!',
+              text: 'Thank you for contacting us.',
+            });
+
+            $form[0].reset();
+          },
+          error: function () {
+            Swal.fire({
+              icon: 'error',
+              title: 'Submission Failed!',
+              text: 'Please try again later.',
+            });
+          }
         });
+      }
+    });
 
- 
-});
+    function validateForm() {
+      $('.error').remove();
+      var isValid = true;
 
-   </script>
+      var nameReg = /^[A-Za-z\s]+$/;
+      var numberReg = /^[0-9]+$/;
+      var emailReg = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
+
+      var name = $('#nameInput').val().trim();
+      var email = $('#emailInput').val().trim();
+      var phone = $('#telInput').val().trim();
+      var message = $('#messageInput').val().trim();
+
+      if (name === '') {
+        $('#nameInput').before('<span class="error" style="color:red;">Please enter your name</span>');
+        isValid = false;
+      } else if (!nameReg.test(name)) {
+        $('#nameInput').before('<span class="error" style="color:red;">Letters and spaces only</span>');
+        isValid = false;
+      }
+
+      if (email === '') {
+        $('#emailInput').before('<span class="error" style="color:red;">Please enter your email</span>');
+        isValid = false;
+      } else if (!emailReg.test(email)) {
+        $('#emailInput').before('<span class="error" style="color:red;">Enter a valid email</span>');
+        isValid = false;
+      }
+
+      if (phone === '') {
+        $('#telInput').before('<span class="error" style="color:red;">Please enter your phone</span>');
+        isValid = false;
+      } else if (!numberReg.test(phone)) {
+        $('#telInput').before('<span class="error" style="color:red;">Numbers only</span>');
+        isValid = false;
+      }
+
+      if (message === '') {
+        $('#messageInput').before('<span class="error" style="color:red;">Please enter your message</span>');
+        isValid = false;
+      }
+      return isValid;
+    }
+  });
+</script>
+
+
   <?php require('./footer.php')?>
