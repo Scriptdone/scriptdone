@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
   <title>Scriptdone</title>
-  <link rel="icon" href="assets/image/logo/rextfy-icon-white.png">
+  <link rel="icon" href="assets/image/logo/SCRIPTDONE.svg">
 </head>
 
 <body>
