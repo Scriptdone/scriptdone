@@ -26,10 +26,10 @@
               <div class="menu-container">
                 <ul class="widget-list">
                   <li>
-                    <a href="./about.php">About Us</a>
+                    <a href="./about">About Us</a>
                   </li>
                   <li>
-                    <a href="./contact.php">Contact US</a>
+                    <a href="./contact">Contact US</a>
                   </li>
                   
                 </ul>
