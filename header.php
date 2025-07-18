@@ -5,14 +5,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="assets/css/jquery-ui.css">
-  <link rel="stylesheet" href="assets/css/boxicons.min.css">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
-  <link rel="stylesheet" href="assets/css/animate.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/landing.css ">
+<link rel="stylesheet" href="assets/css/swiper-bundle.min.css?v=<?= filemtime('assets/css/swiper-bundle.min.css') ?>">
+<link rel="stylesheet" href="assets/css/jquery-ui.css?v=<?= filemtime('assets/css/jquery-ui.css') ?>">
+<link rel="stylesheet" href="assets/css/boxicons.min.css?v=<?= filemtime('assets/css/boxicons.min.css') ?>">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css?v=<?= filemtime('assets/css/bootstrap.min.css') ?>">
+<link rel="stylesheet" href="assets/css/bootstrap-icons.css?v=<?= filemtime('assets/css/bootstrap-icons.css') ?>">
+<link rel="stylesheet" href="assets/css/animate.min.css?v=<?= filemtime('assets/css/animate.min.css') ?>">
+<link rel="stylesheet" href="assets/css/style.css?v=<?= filemtime('assets/css/style.css') ?>">
+<link rel="stylesheet" href="assets/css/landing.css?v=<?= filemtime('assets/css/landing.css') ?>">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
   <title>Scriptdone</title>
