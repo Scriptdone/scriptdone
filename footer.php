@@ -140,6 +140,4 @@
 
 </body>
 
-
-<!-- Mirrored from demo.qzency.com/html/rextfy/preview/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Jul 2025 07:08:55 GMT -->
 </html>

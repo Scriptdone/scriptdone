@@ -13,9 +13,31 @@
 <link rel="stylesheet" href="assets/css/animate.min.css?v=<?= filemtime('assets/css/animate.min.css') ?>">
 <link rel="stylesheet" href="assets/css/style.css?v=<?= filemtime('assets/css/style.css') ?>">
 <link rel="stylesheet" href="assets/css/landing.css?v=<?= filemtime('assets/css/landing.css') ?>">
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
-  <title>Scriptdone</title>
+  
+<!-- seo -->
+<title><?= $meta_title ?? 'Scriptdone | Leading Software Development Company' ?></title>
+<meta name="description" content="<?= $meta_description ?? 'We provide top-tier digital marketing and development solutions.' ?>">
+<link rel="canonical" href="<?= $meta_canonical ?? 'https://scriptdone.com/' ?>">
+
+<meta property="og:locale" content="<?= $meta_og_locale ?? 'en_US' ?>">
+<meta property="og:type" content="<?= $meta_og_type ?? 'website' ?>">
+<meta property="og:title" content="<?= $meta_og_title ?? $meta_title ?>">
+<meta property="og:description" content="<?= $meta_og_description ?? $meta_description ?>">
+<meta property="og:url" content="<?= $meta_og_url ?? $meta_canonical ?>">
+<meta property="og:site_name" content="<?= $meta_og_site_name ?? 'Scriptdone' ?>">
+<meta property="og:image" content="<?= $meta_og_image ?? 'https://scriptdone.com/assets/image/logo/logo.png' ?>">
+
+<meta name="twitter:card" content="<?= $twitter_card ?? 'summary' ?>" />
+<meta property="twitter:url" content="<?= $twitter_url ?? 'https://twitter.com/scriptdone' ?>" />
+<meta property="twitter:title" content="<?= $twitter_title ?? $meta_title ?>" />
+<meta property="twitter:description" content="<?= $twitter_description ?? $meta_description ?>" />
+
+
+
+
+
   <link rel="icon" href="assets/image/logo/SCRIPTDONE.svg">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-W2QC9LD0H7"></script>

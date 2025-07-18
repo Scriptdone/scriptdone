@@ -1,3 +1,21 @@
+<?php
+$meta_title = "Custom Software Development And Ecommerce Development Company | Scriptdone";
+$meta_description = "Best Custom Software Development Company in USA & India. ...";
+$meta_canonical = "https://scriptdone.com/";
+
+$meta_og_locale = "en_US";
+$meta_og_type = "website";
+$meta_og_title = "Scriptdone – Leading Web Development , Ecommerce Devlopment  & Digital Marketing Company in Delhi NCR & India ";
+$meta_og_description = "Scriptdone specializes in full-stack Web Development and also offers expert SEO & PPC services. Build fast, rank high, and grow your business online across India.";
+$meta_og_url = "https://scriptdone.com/";
+$meta_og_site_name = "Scriptdone";
+$meta_og_image = "https://scriptdone.com/web-assets/images/main/scriptdone-logo.png";
+
+$twitter_card = "summary";
+$twitter_url = "https://twitter.com/scriptdone";
+$twitter_title = "Web design/development SEO Service, Digital Marketing,  company";
+$twitter_description = "Scriptdone is the Leading Digital Marketing Agency offering SEO, Web Development, and Branding Solutions.";
+?>
 <?php require('./header.php'); ?>
   <!-- banner-section-two start -->
   <div class="banner-section-two">
