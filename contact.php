@@ -77,7 +77,7 @@
                   <div class="content">
                     <span>Drop A Message:</span>
                     <h6>
-                      <a href="mailto:support@scriptdone.com"><span class="__cf_email__" data-cfemail="4d24232b220d28352c203d2128632e2220">support@scriptdone.com</span></a>
+                      <a href="mailto:support@scriptdone.com"><span>support@scriptdone.com</span></a>
                     </h6>
                   </div>
                 </li>

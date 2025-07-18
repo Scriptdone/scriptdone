@@ -1569,7 +1569,7 @@ $twitter_description = "Scriptdone is the Leading Digital Marketing Agency offer
                     stroke="white" stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>
-                <span class="__cf_email__" data-cfemail="c2abaca4ad82a7baa3afb2aea7eca1adaf">support@scriptdone.com</span>
+                <span>support@scriptdone.com</span>
               </a>
             </li>
             <li>

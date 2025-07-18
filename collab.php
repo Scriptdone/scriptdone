@@ -16,7 +16,7 @@
                     stroke="white" stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>
-                <span class="__cf_email__" data-cfemail="c2abaca4ad82a7baa3afb2aea7eca1adaf">Email&#160;support@scriptdone.com</span>
+                <span>Email&#160;support@scriptdone.com</span>
               </a>
                 </li>
                 <li class="social-info">
