@@ -1,4 +1,24 @@
+<?php
+$meta_title = "About Scriptdone Software – We specialize in Ecommerce , custom software and system development, as well as cutting-edge UI/UX design services.";
+$meta_description = "Scriptdone Software is a leading expert in eCommerce, custom software and system development, and modern UI/UX design. We deliver tailored digital solutions to help businesses grow and succeed.";
+
+$meta_og_locale = "en_US";
+$meta_og_type = "website";
+$meta_og_title = "Scriptdone Software – Experts in eCommerce, Software Development & UI/UX Design ";
+$meta_og_description = "Scriptdone Software delivers expert solutions in eCommerce, custom software, system development, and UI/UX design. We help businesses build fast, scale smart, and stand out online.";
+$meta_og_url = "https://scriptdone.com/";
+$meta_og_site_name = "Scriptdone";
+$meta_og_image = "https://scriptdone.com/web-assets/images/main/scriptdone-logo.png";
+
+$twitter_card = "summary";
+$twitter_url = "https://twitter.com/scriptdone";
+$twitter_title = "Web design/development SEO Service, Digital Marketing,  company";
+$twitter_description = "Scriptdone is the Leading Digital Marketing Agency offering SEO, Web Development, and Branding Solutions.";
+?>
+
 <?php require('./header.php')?>
+
+
   <!-- header section end -->
   <!-- breadcrumb-section start -->
   <div class="breadcrumb-section" style="background-image: url(assets/image/banner-img/breadcrumb-img.png)">
