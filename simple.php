@@ -16,18 +16,14 @@ require 'PHPMailer/src/SMTP.php'; {
     //    $mobile = $_POST['mobile'];
     //    $message = $_POST['message'];
 
-    $mail = new PHPMailer(true);
+   
 
+ 
 
-    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-        $msg = "<h3>Hello, you got a new inquiry</h3>";
+function sendMail($msg){
+     $mail = new PHPMailer(true);
 
-        foreach ($_POST as $key => $value) {
-            $msg .= "<p><strong>" . htmlspecialchars(strtoupper($key)) . ":</strong> " . htmlspecialchars($value) . "</p>";
-        }
-    }
-
-
+    
     try {
 
         //Server settings
@@ -67,4 +63,5 @@ require 'PHPMailer/src/SMTP.php'; {
         //    header("Location: ".$_SERVER["HTTP_REFERER"]);
         exit(0);
     }
+}
 }
