@@ -21,18 +21,18 @@
 <meta name="description" content="<?= $meta_description ?? 'We provide top-tier digital marketing and development solutions.' ?>">
 <link rel="canonical" href="<?= $meta_canonical ?? 'https://scriptdone.com/' ?>">
 
-<meta property="og:locale" content="<?= $meta_og_locale ?? 'en_US' ?>">
-<meta property="og:type" content="<?= $meta_og_type ?? 'website' ?>">
-<meta property="og:title" content="<?= $meta_og_title ?? $meta_title ?>">
-<meta property="og:description" content="<?= $meta_og_description ?? $meta_description ?>">
-<meta property="og:url" content="<?= $meta_og_url ?? $meta_canonical ?>">
-<meta property="og:site_name" content="<?= $meta_og_site_name ?? 'Scriptdone' ?>">
-<meta property="og:image" content="<?= $meta_og_image ?? 'https://scriptdone.com/assets/image/logo/logo.png' ?>">
+  <meta property="og:locale" content="<?= $meta_og_locale ?? 'en_US' ?>">
+  <meta property="og:type" content="<?= $meta_og_type ?? 'website' ?>">
+  <meta property="og:title" content="<?= $meta_og_title ?? $meta_title ?>">
+  <meta property="og:description" content="<?= $meta_og_description ?? $meta_description ?>">
+  <meta property="og:url" content="<?= $meta_og_url ?? $meta_canonical ?>">
+  <meta property="og:site_name" content="<?= $meta_og_site_name ?? 'Scriptdone' ?>">
+  <meta property="og:image" content="<?= $meta_og_image ?? 'https://scriptdone.com/assets/image/logo/logo.png' ?>">
 
-<meta name="twitter:card" content="<?= $twitter_card ?? 'summary' ?>" />
-<meta property="twitter:url" content="<?= $twitter_url ?? 'https://twitter.com/scriptdone' ?>" />
-<meta property="twitter:title" content="<?= $twitter_title ?? $meta_title ?>" />
-<meta property="twitter:description" content="<?= $twitter_description ?? $meta_description ?>" />
+  <meta name="twitter:card" content="<?= $twitter_card ?? 'summary' ?>" />
+  <meta property="twitter:url" content="<?= $twitter_url ?? 'https://twitter.com/scriptdone' ?>" />
+  <meta property="twitter:title" content="<?= $twitter_title ?? $meta_title ?>" />
+  <meta property="twitter:description" content="<?= $twitter_description ?? $meta_description ?>" />
 
 
 
@@ -51,9 +51,21 @@
 
     gtag('config', 'G-W2QC9LD0H7');
   </script>
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PD27RDF9');</script>
+<!-- End Google Tag Manager -->
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PD27RDF9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
   <!-- scroll top -->
   <div class="circle-container">
     <svg class="circle-progress svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
