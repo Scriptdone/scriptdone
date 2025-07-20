@@ -1,3 +1,22 @@
+<?php
+$meta_title = "Services Software Ecommerce Saas Development  |UI UX Desgin |Digtial Marketing| Scriptdone";
+$meta_description = "Scriptdone offers expert Software, eCommerce, SaaS Development, UI/UX Design, and Digital Marketing services tailored to grow your business online. Innovative, scalable, and result-driven solutions.";
+$meta_canonical = "https://scriptdone.com/";
+
+$meta_og_locale = "en_US";
+$meta_og_type = "website";
+$meta_og_title = "Scriptdone – Leading Web Development , Ecommerce Devlopment  & Digital Marketing Company in Delhi NCR & India ";
+$meta_og_description = "Scriptdone specializes in full-stack Web Development and also offers expert SEO & PPC services. Build fast, rank high, and grow your business online across India.";
+$meta_og_url = "";
+$meta_og_site_name = "Scriptdone";
+$meta_og_image = "https://scriptdone.com/web-assets/images/main/scriptdone-logo.png";
+
+$twitter_card = "summary";
+$twitter_url = "https://twitter.com/scriptdone";
+$twitter_title = "Web design/development SEO Service, Digital Marketing,  company";
+$twitter_description = "Scriptdone is the Leading Digital Marketing Agency offering SEO, Web Development, and Branding Solutions.";
+?>
+
 <?php require('./header.php')?>
   <!-- header section end -->
   <!-- breadcrumb-section start -->
