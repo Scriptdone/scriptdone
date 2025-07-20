@@ -76,7 +76,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="right-sidebar-menu">
     <div class="sidebar-logo-area d-flex justify-content-between align-items-center">
       <div class="sidebar-logo-wrap">
-        <a href="index-2.html"><img alt="image" src="assets/image/logo/logo.png" alt ="scriptdone software"/></a>
+        <a href="index-2.html"><img alt="Scriptdone software" src="assets/image/logo/logo.png" /></a>
       </div>
       <div class="right-sidebar-close-btn">
         <i class="bi bi-x"></i>
