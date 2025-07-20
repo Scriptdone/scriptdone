@@ -200,7 +200,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <header class="header-area style-2">
     <div class="container-fluid container-rextfy d-flex flex-nowrap align-items-center justify-content-between">
       <div class="header-logo">
-        <a href="/"><img alt="image" class="img-fluid" src="assets/image/logo/logo.png" /></a>
+        <a href="/"><img alt="scriptdone software" class="img-fluid" src="assets/image/logo/logo.png" /></a>
       </div>
       <div class="main-menu">
         <div class="mobile-logo-area d-lg-none d-flex justify-content-center">
