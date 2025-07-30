@@ -19,7 +19,11 @@
 <!-- seo -->
 <title><?= $meta_title ?? 'Scriptdone | Leading Software Development Company' ?></title>
 <meta name="description" content="<?= $meta_description ?? 'We provide top-tier digital marketing and development solutions.' ?>">
-<link rel="canonical" href="<?= $meta_canonical ?? 'https://scriptdone.com/' ?>">
+<?php
+$path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$canonical_url = 'https://scriptdone.com' . rtrim($path, '/');
+?>
+<link rel="canonical" href="<?= $meta_canonical ?? $canonical_url ?>">
 
   <meta property="og:locale" content="<?= $meta_og_locale ?? 'en_US' ?>">
   <meta property="og:type" content="<?= $meta_og_type ?? 'website' ?>">
