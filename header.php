@@ -23,7 +23,7 @@
 $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $canonical_url = 'https://scriptdone.com' . rtrim($path, '/');
 ?>
-<link rel="canonical" href="<?= $meta_canonical ?? $canonical_url ?>">
+<link rel="canonical" href="<?= $canonical_url ?>">
 
   <meta property="og:locale" content="<?= $meta_og_locale ?? 'en_US' ?>">
   <meta property="og:type" content="<?= $meta_og_type ?? 'website' ?>">
